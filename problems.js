@@ -1984,8 +1984,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 1,
-    "question": "Let $i=\\sqrt{-1}$. If $k$ and $w$ are real numbers such that\n\\[\n  \\frac{k+wi}{10-24i}=5,\n\\]\nfind the value of $k+w$. \\(\\text{",
-    "answer": "-70\\)",
+    "question": "Let $i=\\sqrt{-1}$. If $k$ and $w$ are real numbers such that\n\\[\n  \\frac{k+wi}{10-24i}=5,\n\\]\nfind the value of $k+w$.",
+    "answer": "-70",
     "diagram": null
   },
   {
@@ -1993,8 +1993,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 2,
-    "question": "Let $k$ be a real number. Find the value of\n$\\sin^2(3567894k)+\\cos^2(3567894k)$. \\(\\text{",
-    "answer": "1\\)",
+    "question": "Let $k$ be a real number. Find the value of\n$\\sin^2(3567894k)+\\cos^2(3567894k)$.",
+    "answer": "1",
     "diagram": null
   },
   {
@@ -2002,8 +2002,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 3,
-    "question": "Find the value of the indicated sum:\n\\[\n  \\sum_{k=1}^{4}(2k+3).\n\\]\n\\(\\text{",
-    "answer": "32\\)",
+    "question": "Find the value of the indicated sum:\n\\[\n  \\sum_{k=1}^{4}(2k+3).\n\\]",
+    "answer": "32",
     "diagram": null
   },
   {
@@ -2011,8 +2011,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 4,
-    "question": "Find the sum of the terms of an infinite geometric sequence whose first four terms are $2$, $-1$, $\\frac12$, and $-\\frac14$. Express your answer as an improper fraction reduced to lowest terms. \\(\\text{",
-    "answer": "\\frac43\\)",
+    "question": "Find the sum of the terms of an infinite geometric sequence whose first four terms are $2$, $-1$, $\\frac12$, and $-\\frac14$. Express your answer as an improper fraction reduced to lowest terms.",
+    "answer": "\\frac43",
     "diagram": null
   },
   {
@@ -2020,8 +2020,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 5,
-    "question": "In the diagram, points $A$, $B$, and $C$ are collinear. If $\\angle DBA=17.13^\\circ$ and $\\angle DCA=11.87^\\circ$, and $DA=967.3$, find $BC$. Round your answer to the nearest integer and express your answer as that integer.\n\\(\\text{",
-    "answer": "1464\\)",
+    "question": "In the diagram, points $A$, $B$, and $C$ are collinear. If $\\angle DBA=17.13^\\circ$ and $\\angle DCA=11.87^\\circ$, and $DA=967.3$, find $BC$. Round your answer to the nearest integer and express your answer as that integer.",
+    "answer": "1464",
     "diagram": "diagrams/state_2011_q05.png"
   },
   {
@@ -2029,8 +2029,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 6,
-    "question": "Let $\\vec a$, $\\vec b$, $\\vec c$, and $\\vec d$ represent vectors such that\n$\\vec a=(3,2)$, $\\vec b=(-8,13)$, and $\\vec c=(19,-86)$. Find the ordered pair representing $\\vec d$ if $\\vec a-\\vec b=\\vec c+\\vec d$. \\(\\text{",
-    "answer": "(-8,75)\\)",
+    "question": "Let $\\vec a$, $\\vec b$, $\\vec c$, and $\\vec d$ represent vectors such that\n$\\vec a=(3,2)$, $\\vec b=(-8,13)$, and $\\vec c=(19,-86)$. Find the ordered pair representing $\\vec d$ if $\\vec a-\\vec b=\\vec c+\\vec d$.",
+    "answer": "(-8,75)",
     "diagram": null
   },
   {
@@ -2038,8 +2038,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 7,
-    "question": "When the sum of the first $k$ terms of the series\n$1^2+2^2+3^2+\\cdots+n^2+\\cdots$ is subtracted from the sum of the first $k$ terms of the series\n$1(2)+2(3)+3(4)+\\cdots+n(n+1)+\\cdots$, the result is $528$. Find the value of $k$. \\(\\text{",
-    "answer": "32\\)",
+    "question": "When the sum of the first $k$ terms of the series\n$1^2+2^2+3^2+\\cdots+n^2+\\cdots$ is subtracted from the sum of the first $k$ terms of the series\n$1(2)+2(3)+3(4)+\\cdots+n(n+1)+\\cdots$, the result is $528$. Find the value of $k$.",
+    "answer": "32",
     "diagram": null
   },
   {
@@ -2047,8 +2047,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 8,
-    "question": "For the equation $x^2+11x+k=0$, the square of the difference between the roots for $x$ is $120$ more than the sum of the squares of these roots for $x$. Find the value of $k$ for which this is true. \\(\\text{",
-    "answer": "-60\\)",
+    "question": "For the equation $x^2+11x+k=0$, the square of the difference between the roots for $x$ is $120$ more than the sum of the squares of these roots for $x$. Find the value of $k$ for which this is true.",
+    "answer": "-60",
     "diagram": null
   },
   {
@@ -2056,8 +2056,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 9,
-    "question": "In the diagram, $\\overline{AC}$ and $\\overline{EC}$ are common external tangents of the two circles, with points of tangency at $A$, $B$, $D$, and $E$. The circles are tangent at $F$ and have radii of lengths $3$ and $8$. Then\n$\\sin\\angle BCD=\\dfrac{k\\sqrt{w}}{f}$, where $k$, $w$, and $f$ are positive integers. Find the smallest possible value of $k+w+f$.\n\\(\\text{",
-    "answer": "167\\)",
+    "question": "In the diagram, $\\overline{AC}$ and $\\overline{EC}$ are common external tangents of the two circles, with points of tangency at $A$, $B$, $D$, and $E$. The circles are tangent at $F$ and have radii of lengths $3$ and $8$. Then\n$\\sin\\angle BCD=\\dfrac{k\\sqrt{w}}{f}$, where $k$, $w$, and $f$ are positive integers. Find the smallest possible value of $k+w+f$.",
+    "answer": "167",
     "diagram": "diagrams/state_2011_q09.png"
   },
   {
@@ -2065,8 +2065,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 10,
-    "question": "Let $x$ represent the degree measure of an angle such that $\\cot(x)=\\sqrt{3}$. If $180^\\circ<x<270^\\circ$, find the value of $x$. \\(\\text{",
-    "answer": "210\\)",
+    "question": "Let $x$ represent the degree measure of an angle such that $\\cot(x)=\\sqrt{3}$. If $180^\\circ<x<270^\\circ$, find the value of $x$.",
+    "answer": "210",
     "diagram": null
   },
   {
@@ -2074,8 +2074,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 11,
-    "question": "Urn A contains five marbles, three of which are orange and two of which are blue. Urn B contains four marbles, three of which are orange and one of which is blue. One of the urns is selected at random, and a marble is then selected at random from that urn. If the marble selected was orange, find the probability that the marble came from Urn B. Express your answer as a common fraction reduced to lowest terms. \\(\\text{",
-    "answer": "\\frac59\\)",
+    "question": "Urn A contains five marbles, three of which are orange and two of which are blue. Urn B contains four marbles, three of which are orange and one of which is blue. One of the urns is selected at random, and a marble is then selected at random from that urn. If the marble selected was orange, find the probability that the marble came from Urn B. Express your answer as a common fraction reduced to lowest terms.",
+    "answer": "\\frac59",
     "diagram": null
   },
   {
@@ -2083,8 +2083,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 12,
-    "question": "A parabola has its line of symmetry parallel to the $x$-axis and has its vertex at $(7,2)$. The point $(3,-8)$ lies on the parabola. Find only the $x$-coordinate of the focus of this parabola. Express your answer as a decimal. \\(\\text{",
-    "answer": "0.75\\)",
+    "question": "A parabola has its line of symmetry parallel to the $x$-axis and has its vertex at $(7,2)$. The point $(3,-8)$ lies on the parabola. Find only the $x$-coordinate of the focus of this parabola. Express your answer as a decimal.",
+    "answer": "0.75",
     "diagram": null
   },
   {
@@ -2092,8 +2092,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 13,
-    "question": "Let $\\overline{AB}$, $\\overline{CD}$, and $\\overline{EF}$ be three parallel chords that are non-diameters of a circle on the same side of the center. Let $\\overline{GJ}$ be tangent to the circle at $H$ such that $\\overline{GJ}\nallel\\overline{AB}$. The distance between $\\overline{AB}$ and $\\overline{CD}$ is equal to the distance between $\\overline{CD}$ and $\\overline{EF}$ and is also equal to the distance between $\\overline{EF}$ and $\\overline{GJ}$. If $AB=24$, then $CD$ must be greater than $k$. Find the largest possible simplified exact value of $k$. \\(\\text{",
-    "answer": "8\\sqrt6\\)",
+    "question": "Let $\\overline{AB}$, $\\overline{CD}$, and $\\overline{EF}$ be three parallel chords that are non-diameters of a circle on the same side of the center. Let $\\overline{GJ}$ be tangent to the circle at $H$ such that $\\overline{GJ}\\parallel\\overline{AB}$. The distance between $\\overline{AB}$ and $\\overline{CD}$ is equal to the distance between $\\overline{CD}$ and $\\overline{EF}$ and is also equal to the distance between $\\overline{EF}$ and $\\overline{GJ}$. If $AB=24$, then $CD$ must be greater than $k$. Find the largest possible simplified exact value of $k$.",
+    "answer": "8\\sqrt6",
     "diagram": null
   },
   {
@@ -2101,8 +2101,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 14,
-    "question": "A geometric sequence consists of $10$ terms. The sum of the $10$ terms is $2343.7496$, and the sum of the reciprocals of each of the $10$ terms is $1302.0832$. Find the product of the $10$ terms of the original sequence. Express your answer as an exact decimal. \\(\\text{",
-    "answer": "18.89568\\)",
+    "question": "A geometric sequence consists of $10$ terms. The sum of the $10$ terms is $2343.7496$, and the sum of the reciprocals of each of the $10$ terms is $1302.0832$. Find the product of the $10$ terms of the original sequence. Express your answer as an exact decimal.",
+    "answer": "18.89568",
     "diagram": null
   },
   {
@@ -2110,8 +2110,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 15,
-    "question": "Let $k$ represent a positive integer degree measure such that\n$\\dfrac{\\sin(57^\\circ)}{\\cos(k^\\circ)}=1$. If $0^\\circ<k<90^\\circ$, find the value of $k$. \\(\\text{",
-    "answer": "33\\)",
+    "question": "Let $k$ represent a positive integer degree measure such that\n$\\dfrac{\\sin(57^\\circ)}{\\cos(k^\\circ)}=1$. If $0^\\circ<k<90^\\circ$, find the value of $k$.",
+    "answer": "33",
     "diagram": null
   },
   {
@@ -2119,8 +2119,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 16,
-    "question": "The sum of the last two terms of an eight-term geometric progression of real terms is $\\frac29$. The sum of the third and fourth terms of this geometric progression is $18$. Find the sum of all eight terms of this geometric progression. Express your answer as an improper fraction reduced to lowest terms. \\(\\text{",
-    "answer": "\\frac{1640}{9}\\)",
+    "question": "The sum of the last two terms of an eight-term geometric progression of real terms is $\\frac29$. The sum of the third and fourth terms of this geometric progression is $18$. Find the sum of all eight terms of this geometric progression. Express your answer as an improper fraction reduced to lowest terms.",
+    "answer": "\\frac{1640}{9}",
     "diagram": null
   },
   {
@@ -2128,8 +2128,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 17,
-    "question": "In rhombus $ABCD$, $\\angle DAB=52^\\circ$. A circle passes through vertices $A$, $B$, and $D$, and intersects diagonal $\\overline{AC}$ at $E$. $CE=12$. Find the length of the arc of the circle from $A$ to $D$ to $B$. Express your answer as a decimal rounded to the nearest hundredth. \\(\\text{",
-    "answer": "39.46\\)",
+    "question": "In rhombus $ABCD$, $\\angle DAB=52^\\circ$. A circle passes through vertices $A$, $B$, and $D$, and intersects diagonal $\\overline{AC}$ at $E$. $CE=12$. Find the length of the arc of the circle from $A$ to $D$ to $B$. Express your answer as a decimal rounded to the nearest hundredth.",
+    "answer": "39.46",
     "diagram": null
   },
   {
@@ -2137,8 +2137,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 18,
-    "question": "Let $C(n,k)=\\dfrac{n!}{k!(n-k)!}$, where $n$ and $k$ represent positive integers. Find the value of $n$ such that $C(n,5)=792$. \\(\\text{",
-    "answer": "12\\)",
+    "question": "Let $C(n,k)=\\dfrac{n!}{k!(n-k)!}$, where $n$ and $k$ represent positive integers. Find the value of $n$ such that $C(n,5)=792$.",
+    "answer": "12",
     "diagram": null
   },
   {
@@ -2146,8 +2146,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 19,
-    "question": "When $(2x+3y)^5$ is expanded and completely simplified, the coefficient of one of the terms is $1080$. Find the exponent of $x$ for that term. \\(\\text{",
-    "answer": "2\\)",
+    "question": "When $(2x+3y)^5$ is expanded and completely simplified, the coefficient of one of the terms is $1080$. Find the exponent of $x$ for that term.",
+    "answer": "2",
     "diagram": null
   },
   {
@@ -2155,8 +2155,8 @@ window.PROBLEMS = [
     "source": "State",
     "year": "2011",
     "number": 20,
-    "question": "By substituting $1$, $2$, $3$, $4$, $5$, and $6$ for $x$ into a polynomial expression with integral coefficients in $x$, the values are respectively $-3$, $10$, $49$, $120$, $229$, and $382$. If $P(x)$ is the polynomial expression with integer coefficients of lowest degree satisfying the given conditions, find $P(43)$. \\(\\text{",
-    "answer": "91809\\)",
+    "question": "By substituting $1$, $2$, $3$, $4$, $5$, and $6$ for $x$ into a polynomial expression with integral coefficients in $x$, the values are respectively $-3$, $10$, $49$, $120$, $229$, and $382$. If $P(x)$ is the polynomial expression with integer coefficients of lowest degree satisfying the given conditions, find $P(43)$.",
+    "answer": "91809",
     "diagram": null
   },
   {
@@ -2165,7 +2165,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 1,
     "question": "Given the sequence \\(1,4,7,10,\\ldots,(3n-2)\\), if one of the first ten numbers in this sequence is selected at random, find the probability that the number selected is odd. Express your answer as a common fraction reduced to lowest terms.  ",
-    "answer": "\\(\\frac{1}{2}\\)",
+    "answer": "\\(\\frac{1}{2}",
     "diagram": null
   },
   {
@@ -2174,7 +2174,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 2,
     "question": "\\textbf{(Multiple Choice)} For your answer, write the capital letter that corresponds to the best answer. For all real \\(x\\),\n\\[\n\\sin\\bigl((-810+x)^\\circ\\bigr)=\n\\]\n\\(\\mathrm{A})\\ \\sin(x^\\circ)\\qquad\n\\mathrm{B})\\ \\cos(x^\\circ)\\qquad\n\\mathrm{C})\\ -\\sin(x^\\circ)\\qquad\n\\mathrm{D})\\ -\\cos(x^\\circ)\\qquad\n\\mathrm{E})\\ \\sin\\bigl((90+x)^\\circ\\bigr)\\).\nBe certain to write the correct capital letter as your answer.  ",
-    "answer": "\\(\\mathrm{D}\\)",
+    "answer": "\\(\\mathrm{D}",
     "diagram": null
   },
   {
@@ -2183,7 +2183,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 3,
     "question": "Find the sum of all distinct values of \\(x\\) such that \\(\\lvert x-7\\rvert=\\lvert 2x+1\\rvert\\).  ",
-    "answer": "\\(-6\\)",
+    "answer": "\\(-6",
     "diagram": null
   },
   {
@@ -2192,7 +2192,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 4,
     "question": "\\textbf{(Multiple Choice)} For your answer, write the capital letter that corresponds to the best answer. Let \\(a\\) and \\(b\\) be real numbers, let \\(i=\\sqrt{-1}\\), and let \\(\\overline{a+bi}\\) be the complex conjugate of \\(a+bi\\). If\n\\[\n(a+bi)\\overline{(a+bi)}=33\n\\]\nis graphed in a complex plane, then the graph will be:\n\\(\\mathrm{A})\\) A parabola; \\(\\mathrm{B})\\) A circle; \\(\\mathrm{C})\\) An ellipse that is not a circle; \\(\\mathrm{D})\\) A straight line; \\(\\mathrm{E})\\) A hyperbola. Be certain to write the correct capital letter as your answer.  ",
-    "answer": "\\(\\mathrm{B}\\)",
+    "answer": "\\(\\mathrm{B}",
     "diagram": null
   },
   {
@@ -2201,7 +2201,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 5,
     "question": "Let \\(f=\\{((4,3),6),((7,8),9)\\}\\). Find the sum of all distinct members of the range of \\(f\\).  ",
-    "answer": "\\(15\\)",
+    "answer": "\\(15",
     "diagram": null
   },
   {
@@ -2210,7 +2210,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 6,
     "question": "Find the number of years it will take for a sum of money to double if invested at an annual percentage rate of \\(8.1\\%\\) and compounded continuously. Express your answer as a decimal rounded to the nearest hundredth of a year.  ",
-    "answer": "\\(8.56\\)",
+    "answer": "\\(8.56",
     "diagram": null
   },
   {
@@ -2219,7 +2219,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 7,
     "question": "If\n\\[\n\\begin{bmatrix}3&4\\\\2&-1\\end{bmatrix}\n\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\n=\n\\begin{bmatrix}7&55\\\\12&22\\end{bmatrix},\n\\]\nfind the value of \\(a+2b+3c+4d\\).  ",
-    "answer": "\\(41\\)",
+    "answer": "\\(41",
     "diagram": null
   },
   {
@@ -2228,7 +2228,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 8,
     "question": "A person writes down \\(5\\) different integers at random from the \\(25\\) integers from \\(1\\) to \\(25\\), inclusive. Each of the \\(25\\) integers is then called off one at a time in a random order. As soon as all \\(5\\) of the person's numbers have been called off, the person yells, “Bingo.” Exactly how many of the \\(25\\) numbers will have been called off when the probability that the person will yell “Bingo” for the first time is greatest?  ",
-    "answer": "\\(25\\)",
+    "answer": "\\(25",
     "diagram": null
   },
   {
@@ -2237,7 +2237,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 9,
     "question": "Find the exact sum of \\(\\displaystyle\\sum_{w=1}^{9}(-10)^{w-3}\\). Express your answer as a decimal.  ",
-    "answer": "\\(909090.91\\)",
+    "answer": "\\(909090.91",
     "diagram": null
   },
   {
@@ -2246,7 +2246,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 10,
     "question": "An apartment rental company has \\(3000\\) apartments available, and \\(1900\\) are presently rented at \\(\\$950\\) per month. The company has decided that it will only raise or lower the rent per month on all apartments by integral increments of \\(\\$40\\). A survey has shown that, so long as there are apartments available, for each \\(\\$40\\) drop in rent per month for every apartment, there will be \\(99\\) new tenants. Find the number of dollars in the monthly rent that will maximize total income.  ",
-    "answer": "\\(\\$870\\)",
+    "answer": "\\(\\$870",
     "diagram": null
   },
   {
@@ -2255,7 +2255,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 11,
     "question": "In a room with exactly \\(6\\) distinct persons, exactly \\(12\\) handshakes between \\(2\\) distinct persons are made. No two of these handshakes take place between the same \\(2\\) persons. Of the persons in the room, exactly two persons shook hands with exactly three other persons. Three distinct persons from these \\(6\\) persons are selected at random. Find the probability that these three distinct persons had all shaken hands with each other from among the \\(12\\) handshakes. Express your answer as a common fraction reduced to lowest terms.  ",
-    "answer": "\\(\\frac{1}{2}\\)",
+    "answer": "\\(\\frac{1}{2}",
     "diagram": null
   },
   {
@@ -2264,7 +2264,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 12,
     "question": "Find the number of distinct negative values of \\(x\\) for which\n\\[\nx^9+2x^7=x^4-7x^3-6x^2-7x+9.\n\\]\n ",
-    "answer": "\\(0\\)",
+    "answer": "\\(0",
     "diagram": null
   },
   {
@@ -2273,7 +2273,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 13,
     "question": "The roots for \\(x\\) of the equation\n\\[\nx^5-\\frac{121}{162}x^4+bx^3+cx^2+dx+e=0\n\\]\nform a geometric progression. The sum of the reciprocals of the roots is \\(242\\). Find the absolute value of \\(e\\). Express your answer as a common fraction reduced to lowest terms.  ",
-    "answer": "\\(\\frac{1}{1889568}\\)",
+    "answer": "\\(\\frac{1}{1889568}",
     "diagram": null
   },
   {
@@ -2282,7 +2282,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 14,
     "question": "An arithmetic progression has a first term of \\(3\\), and its last term is \\(33\\). The total population standard deviation \\((\\sigma_x)\\) of the terms of this arithmetic progression is \\(\\sqrt{105}\\). Find the sum of the terms of this arithmetic progression.  ",
-    "answer": "\\(108\\)",
+    "answer": "\\(108",
     "diagram": null
   },
   {
@@ -2291,7 +2291,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 15,
     "question": "On April 1, April puts \\(1\\) cent in her piggy bank, which was empty. On April 2, April puts \\(2\\) additional cents in her piggy bank. On April 3, April puts \\(4\\) additional cents in her piggy bank. On April 4, April puts \\(8\\) additional cents in her piggy bank. She continues this process of doubling the number of cents from the previous day. How many cents will April have in her piggy bank after her deposit on the last day of this April month?  ",
-    "answer": "\\(1073741823\\)",
+    "answer": "\\(1073741823",
     "diagram": null
   },
   {
@@ -2300,7 +2300,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 16,
     "question": "In cis form, the roots of \\(1-x^5=0\\) can be presented as \\(\\operatorname{cis}(k^\\circ)\\), where \\(k<360\\). Find the largest possible value of \\(k\\). (Note: \\(r\\operatorname{cis}(\\theta^\\circ)=r(\\cos(\\theta^\\circ)+i\\sin(\\theta^\\circ))\\).)  ",
-    "answer": "\\(288\\)",
+    "answer": "\\(288",
     "diagram": null
   },
   {
@@ -2309,7 +2309,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 17,
     "question": "If a stick is broken at random into \\(3\\) pieces, find the probability that the longest of the \\(3\\) pieces is at least three times the shortest of the \\(3\\) pieces. Express your answer as a common fraction reduced to lowest terms.  ",
-    "answer": "\\(\\frac{27}{35}\\)",
+    "answer": "\\(\\frac{27}{35}",
     "diagram": null
   },
   {
@@ -2318,7 +2318,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 18,
     "question": "Find the radian period of the graph of \\(y=3\\sin(2x)\\).  ",
-    "answer": "\\(\\pi\\)",
+    "answer": "\\(\\pi",
     "diagram": null
   },
   {
@@ -2327,7 +2327,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 19,
     "question": "The lengths of the sides of a triangle with an area greater than \\(4\\) are respectively \\(13\\), \\(15\\), and \\(x\\). If \\(x\\) is a positive integer, find the sum of all distinct possible values of \\(x\\) such that the cosine of the angle opposite the side of length \\(x\\) is a positive common fraction with a denominator less than \\(37\\) when reduced to lowest terms.  ",
-    "answer": "\\(71\\)",
+    "answer": "\\(71",
     "diagram": null
   },
   {
@@ -2336,7 +2336,7 @@ window.PROBLEMS = [
     "year": "2012",
     "number": 20,
     "question": "Observe that\n\\[\n\\begin{aligned}\n1^3+(-1)^3+0^3&=0^3,\\\\\n2^3+1^3+(-1)^3&=2^3,\\\\\n9^3+15^3+12^3&=18^3,\\\\\n28^3+53^3+75^3&=84^3,\\\\\n65^3+127^3+248^3&=260^3,\\\\\n126^3+249^3+615^3&=630^3.\n\\end{aligned}\n\\]\nShould this pattern continue, then the next term would be\n\\[\nk^3+w^3+p^3=1302^3.\n\\]\nFind the value of \\(k+w+p\\).  ",
-    "answer": "\\(1932\\)",
+    "answer": "\\(1932",
     "diagram": null
   },
   {
