@@ -37,9 +37,12 @@
   };
   const cleanDisplay = value => value
     .replace(/\\(?:textbf|textit)\{([^{}]*)\}/g, '$1')
+    .replace(/\\(?:textbf|textit)\{\s*$/g, '')
+    .replace(/\\\(\\text\{\s*$/g, '')
     .replace(/\\(?:par|quad|noindent)/g, ' ')
     .replace(/\\item\[([^\]]+)\]/g, '$1 ')
     .replace(/\\begin\{(?:enumerate|center)\}|\\end\{(?:enumerate|center)\}/g, '')
+    .replace(/\\\\\s*$/g, '')
     .replace(/\n\s*/g, '<br>');
 
   function render() {
