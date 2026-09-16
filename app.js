@@ -61,7 +61,7 @@
   };
   function renderFormulaList() {
     const groups = window.FORMULA_REFERENCE || [];
-    formulaList.innerHTML = groups.map(group => `<section class="formula-group"><h2>${group.group}</h2>${group.items.map(([name, formula]) => `<article class="formula-row"><span class="formula-label">${name}</span><span class="formula-text">${cleanDisplay(formula)}</span></article>`).join('')}</section>`).join('');
+    formulaList.innerHTML = groups.map(group => `<section class="formula-group"><h2>${group.group}</h2>${group.items.map(([name, formula]) => { const display = cleanDisplay(formula); const math = /[$]|\\\(|\\\[/.test(formula) ? display : `$${display}$`; return `<article class="formula-row"><span class="formula-label">${name}</span><span class="formula-text">${math}</span></article>`; }).join('')}</section>`).join('');
     if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([formulaList]);
   }
   tabs.forEach(tab => tab.addEventListener('click', () => {
