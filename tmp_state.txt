@@ -1,0 +1,234 @@
+WRITTEN AREA COMPETITION                                                               PRECALCULUS
+ICTM STATE 2022 DIVISION AA                                                              PAGE 1 OF 3
+
+1. Let sin x  0.6 and tan x  0.3 . Determine the value of cos x . Express your answer as an
+   exact decimal.
+
+
+2. Let k  lim x x  2 . Determine the value of k .
+            x 10
+
+
+
+
+             2 1
+3. Let M                                                                            n
+                  and n is a positive integer. Determine the sum of the elements of M .
+             0 1
+   Express your answer as a simplified exponential expression in terms of n .
+
+
+
+                                                       x ! x  3 !
+4. For x an integer and x  4 , the expression                             can be rewritten as the simplified
+                                                    x  5 ! x  2  !
+                      ax 2  bx  c                                                   b
+   rational expression              with integer coefficients. Determine the value of   .
+                     mx  nx  p
+                         2
+                                                                                      n
+   Express your answer as an integer or as a common or improper fraction.
+
+
+
+5. Determine the coordinates of the point A  x, y, z  that is two-fifths of the way from point
+    P  5, 1, 4  to point Q  2,3,1 . Express your answer as that ordered triple  x, y, z  using an
+   integer or a common or improper fraction for the coordinate entries.
+
+
+
+6. The numbers a , b , c , and d can each be used once to fill the entries of a 2  2 matrix.
+   Determine the maximum number of distinct determinant values that could be created.
+
+
+
+7. Let f be the function given by f  x   2 x  1 , g be the function given by
+    g  x   x 2  2 x  17 , and g 1 the inverse relation for the function g . Determine the sum of
+   all x such that f  x   g 1  x  . Express your answer as an integer or as a common or
+   improper fraction.
+
+
+
+8. Determine the number of distinct quintuples of positive integers  a, b, c, d , e  which exist
+   when a  b  c  d  e  16 .
+WRITTEN AREA COMPETITION                                                        PRECALCULUS
+ICTM STATE 2022 DIVISION AA                                                       PAGE 2 OF 3
+
+9. A large school has 2022 parking spaces each tagged sequentially from 1 to 2022. As a senior
+   prank, a group of students removed the tags whose numbers were divisible by 2, 3, or 7.
+   Determine the number of tags that were removed.
+
+
+10. The parametric equations x  et cos t and y  et sin t , with t in radians and t  0 , define a
+   spiral curve. The slope m of the tangent line to this curve at the point  x, y  is given by the
+                    cos t  sin t
+   formula m  t                 . As t increases from 0, let P be the first point at which the
+                     cos t  sin t
+   tangent line is vertical and let Q be the first point at which the tangent line is horizontal.
+   Determine the distance PQ . Express your answer as a decimal rounded to the nearest
+   thousandth.
+
+
+
+11. David has three equally-sized rectangular sheets of paper: one blue, one white, and one red.
+    He cuts out a white ellipse and glues it on the blue sheet so that it just touches the midpoint
+    of, and is tangent to, all four sides of the blue rectangle. He then cuts the red piece into three
+    congruent squares and glues them, without overlap, on top of his design, completely covering
+    both the blue rectangle and the white ellipse. David finds that the length of the diagonal of
+    one of the red squares is 10 2 inches. Determine the number of square inches of the scrap
+    white paper that remains. Express your answer as a decimal rounded to the nearest
+    thousandth.
+
+
+12. In ABC , AB  7 , AC  3 , CB  6 , and AD is a median of the triangle. Determine the
+   length of AD .
+
+
+13. The planes with equations 4 x  3 y  12 z  89 and 3 x  12 y  4 z  10 meet to form an acute
+    dihedral angle of  degrees. Determine the degree value of  . Express your answer as a
+    decimal rounded to the nearest thousandth.
+
+
+14. There are many arrangements of the ten letters in the word EXPERIMENT. Some of those
+    ten-letter arrangements have the math word PRIME appearing in that order, with no other
+    letters mixed in between. Determine the number of arrangements that satisfy this condition.
+
+
+15. A pilot’s eyes are at a vertical height of k feet above a horizontal straight-line path to a
+    6000-foot runway. At one instant, the angle of depression of the pilot’s eyes to the nearer
+    end of the runway is 33 and the angle of depression from the pilot’s eyes to the far end of
+    the runway is 15 . Determine the vertical height k , in feet, of the pilot’s eyes at that instant.
+    Express your answer rounded to the nearest integer.
+WRITTEN AREA COMPETITION                                                            PRECALCULUS
+ICTM STATE 2022 DIVISION AA                                                           PAGE 3 OF 3
+
+                                            1            
+16. Determine the value of x when 2 Arctan    Arctan x  . Express your answer as an
+                                            5            4
+    integer or as a common or improper fraction.
+
+
+
+17. The roots of 3 y 3  2 y 2  y  1  0 are a , b , and c . Then kx3  wx 2  px  q  0 , for
+    relatively prime integers k , w , p and q with k  0 , is a polynomial in terms of x whose
+   roots are a  2 , b  2 and c  2 . Determine the sum  k  w  p  q  .
+
+
+
+18. Thirteen unit circles are arranged with their centers equally spaced on a circle of radius r in
+    such a way that each of the unit circles is externally tangent to exactly two others. Determine
+    the value of r . Express your answer as a decimal rounded to the nearest thousandth.
+
+
+
+19. In radian mode the polar coordinate equation r  2 sin  3  ,            M                           L
+
+    0     , produces the three-leaved rose designated as                            A
+    ALABAMA . The “curve” is traced out as it starts at A and
+   passes through L , A , B , A , M and ends back at A in that
+   order. Points L , B , and M are vertices of an equilateral
+   triangle. The total area inside the rose is given to be  . A
+   second “curve” consisting of a leaf of the rose and a triangle
+                                                                                        B
+   designated as ALASKA , is similarly traced. It starts at A and                                 K
+                                                                             S
+   traces the upper right leaf of the rose through L , returning to A ,
+   and then passing down tangent (to the rose) segment AS , through points S and K such that
+    AS  AK , and ending back at A along tangent segment AK . (Diagram not drawn to scale.)
+   When the total areas enclosed by the ALABAMA and ALASKA “curves” are equal, the
+   distance SK  2k 3w  p . Determine the ordered triple  k , w, p  . Express your answer as that
+   ordered triple  k , w, p  using an integer or a common or improper fraction for the coordinate
+   entries.
+
+
+
+
+20. A particle follows a path mapped by the parametric equations x  t   20  t  1 and
+    y  t   t 2  22t  23 , where x(t) is the horizontal position and y(t) is the vertical position.
+   The particle starts at time t  0 and moves to the point where it reaches maximum height.
+   Determine the number of units this particle moved horizontally. Express your answer as an
+   integer or as a common or improper fraction.
+2022 SAA                                                  Name                     ANSWERS
+
+       Pre-Calculus                                 School
+                                                              (Use full school name – no abbreviations)
+
+           Correct X    2 pts. ea. =
+Note: All answers must be written legibly in simplest form, according to the specifications
+      stated in the Contest Manual. Exact answers are to be given unless otherwise
+      specified in the question. No units of measurement are required.
+                                   (This exact                               (This decimal.)
+
+1.
+      (cosx=)  0.8 OR .8            decimal.)
+                                                    11.
+                                                                 64.381      (square inches)
+
+
+                             (This exact answer.)                                  (This exact answer.)
+
+2.
+       (k=)
+               20 3          (limit)
+                                                    12.
+                                                          (AD=)      2 5           (median length)
+
+               (Must be this expression, parenthesis
+            n1             1 n  around exponent                              (This decimal.)
+
+3.
+       2          OR 2                optional.)
+                                                    13.
+                                                                64.784             (degrees or "  " )
+
+
+                  7    7
+                   OR              (This fraction.)                               (This integer.)
+
+4.
+       (b/n=)
+                  3     3           (ratio)
+                                                    14.
+                                                                      360          (anagrams)
+
+ (A(x,y,z)=)            (This ordered
+  ((x,y,z=)  19 3 14   triple with these                                         (This integer.)
+   (A=)      , ,  fractions as entries.)                (k=)      2737           (height in feet)
+5.          5 5 5                                 15.
+                             (This integer.)                               7
+6.
+                      6      (determinant values)
+                                                    16.
+                                                          (x=)
+                                                                          17
+                                                                                   (This fraction.)
+
+                                    (This fraction.)
+                7   7
+                OR                 (Note: x=
+
+7.
+                4    4               is incorrect.)
+                                                    17.
+                                                                         3        (This integer.)
+
+                             (This integer.)
+                             (Comma use ok.)                                       (This decimal.)
+
+8.
+               1365          (quintuples)
+                                                    18.
+                                                          (r=)     4.179           (radius)
+
+                             (This integer.) ((k,w,p)=)             (Must be this ordered triple
+                             (Comma use ok.)         3 3 1        3 3 1  with these
+               1444          (tags removed)            ,  ,  OR  , ,  fractions.)
+9.                                                  19.  2       4 2            2 4 2
+                                                                                   (This integer.)
+                                    (This decimal.)                                (units)
+
+10.
+       (PQ=)   10.776               (distance)
+                                                    20.
+                                                                      220           (x= or x(t)= not correct.)
+
