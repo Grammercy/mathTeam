@@ -1,0 +1,152 @@
+[
+  {
+    "index": 241,
+    "answer": "1/2",
+    "formula": "Arithmetic sequence: first 10 terms alternate parity, so 5 of 10 are odd."
+  },
+  {
+    "index": 242,
+    "answer": "D",
+    "formula": "Sine periodicity and subtraction identity: sin(x-90°)=-cos x."
+  },
+  {
+    "index": 243,
+    "answer": "-6",
+    "formula": "Absolute-value equation: x-7=±(2x+1), giving x=2,-8; sum=-6."
+  },
+  {
+    "index": 244,
+    "answer": "B",
+    "formula": "Complex modulus: (a+bi)(a-bi)=a²+b²=33, a circle."
+  },
+  {
+    "index": 245,
+    "answer": "15",
+    "formula": "Range of a function is {6,9}; sum distinct range values."
+  },
+  {
+    "index": 246,
+    "answer": "8.56",
+    "formula": "Continuous compounding A=Pe^(rt); doubling time t=ln(2)/0.081."
+  },
+  {
+    "index": 247,
+    "answer": "41",
+    "formula": "Solve the two matrix-column systems; (a,b,c,d)=(5,13,-2,4)."
+  },
+  {
+    "index": 248,
+    "answer": "25",
+    "formula": "Maximum of 5 random positions: P(M=m)=C(m-1,4)/C(25,5), increasing in m."
+  },
+  {
+    "index": 249,
+    "answer": "909090.91",
+    "formula": "Finite geometric series with first term (-10)^(-2) and ratio -10."
+  },
+  {
+    "index": 250,
+    "answer": "870",
+    "formula": "Rent/occupancy form a quadratic; maximize total income at its vertex over integral changes."
+  },
+  {
+    "index": 251,
+    "answer": "1/2",
+    "formula": "Handshake lemma (degree sum=2E) plus counting handshake triangles among 6-person triples."
+  },
+  {
+    "index": 252,
+    "answer": "0",
+    "formula": "Sign analysis: for x<0, left side is negative while right side is positive."
+  },
+  {
+    "index": 253,
+    "answer": "1/1889568",
+    "formula": "Vieta for GP roots r,rq,…,rq^4; reciprocal/sum data give q=3 or 1/3 and product magnitude 1/(32·3^10)."
+  },
+  {
+    "index": 254,
+    "answer": "108",
+    "formula": "AP population variance σ²=d²(n²−1)/12, with d=30/(n−1); obtain n=6, then S=n(3+33)/2."
+  },
+  {
+    "index": 255,
+    "answer": "1073741823",
+    "formula": "Finite geometric sum 1+2+…+2^29=2^30−1."
+  },
+  {
+    "index": 256,
+    "answer": "288",
+    "formula": "Fifth roots of unity have arguments 0°,72°,144°,216°,288°."
+  },
+  {
+    "index": 257,
+    "answer": "27/35",
+    "formula": "Uniform simplex model for three random stick lengths; area ratio for max≥3·min."
+  },
+  {
+    "index": 258,
+    "answer": "π",
+    "formula": "Sine period formula T=2π/|b| for sin(bx), here b=2."
+  },
+  {
+    "index": 259,
+    "answer": "71",
+    "formula": "Law of Cosines: cos θ=(394−x²)/390; test integer triangle sides and reduced denominator <37."
+  },
+  {
+    "index": 260,
+    "answer": "1932",
+    "formula": "Continue the displayed cubic finite-difference patterns; next triple is (217,431,1284)."
+  },
+  {
+    "index": 261,
+    "answer": "45",
+    "formula": "AP nth term a_n=a_1+(n−1)d; d=11, so a_5=45."
+  },
+  {
+    "index": 262,
+    "answer": "95",
+    "formula": "Direct substitution: f(3)=14 and g(4)=81."
+  },
+  {
+    "index": 263,
+    "answer": "√65",
+    "formula": "Complex modulus |a+bi|=√(a²+b²)."
+  },
+  {
+    "index": 264,
+    "answer": "-18",
+    "formula": "Vector norm √(k²+9²)=9√5; k<0 selects −18."
+  },
+  {
+    "index": 265,
+    "answer": "1/3",
+    "formula": "Angle ratios produce ABC angles 40°,40°,100°; exactly 2 of 6 selected angles are 40°."
+  },
+  {
+    "index": 266,
+    "answer": "-6√3",
+    "formula": "GP: 2r⁴=18, so r²=3; negative fourth term forces r=−√3."
+  },
+  {
+    "index": 267,
+    "answer": "17√19",
+    "formula": "Set recurrence fixed point k=6k/7+5491/(7k), yielding k²=5491=17²·19."
+  },
+  {
+    "index": 268,
+    "answer": "-10",
+    "formula": "Conjugate-root theorem gives 1−i; Vieta: product roots=5(1+i)(1−i)=10=−p."
+  },
+  {
+    "index": 269,
+    "answer": "1",
+    "formula": "Tetrahedron volume is |det(B−A,C−A,D−A)|/6."
+  },
+  {
+    "index": 270,
+    "answer": "1",
+    "formula": "Factorial quotient is (x+1)…(x+k); identity for every positive x forces k=1."
+  }
+]

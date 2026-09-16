@@ -44,6 +44,8 @@ button:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .result { margin-top: 19px; padding: 14px 16px; border-left: 3px solid var(--green); background: rgba(166,227,161,.08); color: var(--green); font: 500 .88rem "DM Mono", monospace; line-height: 1.5; }
 .result.wrong { border-color: var(--red); background: rgba(243,139,168,.08); color: var(--red); }
 .result .answer { color: var(--text); }
+.formula { margin-top: 12px; padding: 10px 12px; border-left: 2px solid var(--mauve); color: var(--subtext); font-size: .9rem; line-height: 1.5; }
+.formula mjx-container { color: var(--text); }
 .next { display: block; margin-top: 18px; background: transparent; color: var(--blue); padding: 5px 0; font-size: .88rem; }
 .next[hidden] { display: none; }
 .next span { color: var(--muted); font: .8rem "DM Mono", monospace; margin-left: 5px; }
