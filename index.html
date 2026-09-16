@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href=".">Math Practice<span>.</span></a>
+      <div class="controls">
+        <label class="sr-only" for="source">Packet</label>
+        <select id="source">
+          <option value="all">All packets</option>
+          <option value="Regional">Regional</option>
+          <option value="State">State</option>
+        </select>
+        <span id="progress" class="progress"></span>
+      </div>
+    </header>
+
+    <section class="practice" aria-live="polite">
+      <div class="meta" id="meta"></div>
+      <div id="question" class="question">Loading…</div>
+      <div id="diagram" class="diagram" hidden></div>
+      <form id="answer-form" class="answer-form">
+        <label class="sr-only" for="answer">Your answer</label>
+        <input id="answer" name="answer" autocomplete="off" spellcheck="false" placeholder="Enter your answer" autofocus>
+        <button type="submit">Check</button>
+      </form>
+      <div id="result" class="result" hidden></div>
+      <button id="next" class="next" type="button" hidden>Next problem <span>↵</span></button>
+    </section>
+  </main>
+  <script src="problems.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
