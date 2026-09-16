@@ -25,6 +25,9 @@ body {
 .brand { color: var(--text); font-size: 1.1rem; font-weight: 700; letter-spacing: -.03em; text-decoration: none; }
 .brand span { color: var(--mauve); }
 .controls { display: flex; align-items: center; gap: 16px; }
+.tabs { display: flex; gap: 12px; margin-left: auto; }
+.tab { background: transparent; color: var(--muted); padding: 5px 0; font: 500 .78rem "DM Mono", monospace; }
+.tab.active { color: var(--mauve); }
 select, input, button { font: inherit; }
 select { appearance: none; border: 0; background: transparent; color: var(--muted); font-size: .78rem; cursor: pointer; padding: 8px 0; }
 select:focus, input:focus, button:focus-visible { outline: 2px solid var(--mauve); outline-offset: 3px; }
@@ -49,10 +52,18 @@ button:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .next { display: block; margin-top: 18px; background: transparent; color: var(--blue); padding: 5px 0; font-size: .88rem; }
 .next[hidden] { display: none; }
 .next span { color: var(--muted); font: .8rem "DM Mono", monospace; margin-left: 5px; }
+.formula-view { max-height: calc(100vh - 110px); overflow: auto; margin: 8vh auto 8vh; }
+.formula-list { display: grid; gap: 1px; }
+.formula-row { display: grid; grid-template-columns: minmax(160px, 24%) 1fr; gap: 18px; padding: 12px 0; border-bottom: 1px solid var(--surface); }
+.formula-label { color: var(--muted); font: .72rem "DM Mono", monospace; }
+.formula-text { color: var(--text); line-height: 1.45; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 @media (max-width: 600px) {
   .shell { width: min(100% - 28px, 900px); }
   .topbar { height: 70px; }
+  .topbar { flex-wrap: wrap; gap: 10px; height: auto; padding: 16px 0; }
+  .tabs { order: 3; width: 100%; margin-left: 0; }
+  .formula-row { grid-template-columns: 1fr; gap: 5px; }
   .practice { margin-top: 10vh; }
   .question { min-height: 190px; }
   .answer-form { margin-top: 27px; }

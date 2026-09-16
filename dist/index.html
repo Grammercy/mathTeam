@@ -18,6 +18,10 @@
   <main class="shell">
     <header class="topbar">
       <a class="brand" href=".">Math Practice<span>.</span></a>
+      <nav class="tabs" aria-label="Sections">
+        <button class="tab active" type="button" data-tab="practice">Practice</button>
+        <button class="tab" type="button" data-tab="formulas">Formulas</button>
+      </nav>
       <div class="controls">
         <label class="sr-only" for="source">Packet</label>
         <select id="source">
@@ -42,8 +46,12 @@
       <div id="formula" class="formula" hidden></div>
       <button id="next" class="next" type="button" hidden>Next problem <span>↵</span></button>
     </section>
+    <section id="formula-view" class="formula-view" hidden aria-label="Formula notes">
+      <div id="formula-list" class="formula-list"></div>
+    </section>
   </main>
   <script src="problems.js"></script>
+  <script src="formula_notes.js"></script>
   <script src="formula_notes.js"></script>
   <script src="app.js"></script>
 </body>
