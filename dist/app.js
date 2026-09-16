@@ -50,6 +50,7 @@
     .replace(/\n\s*/g, '<br>');
   const answerDisplay = value => {
     const clean = value.trim();
+    if (/\\\$/.test(clean)) return cleanDisplay(clean).replace(/\$/g, '&#36;');
     if (!/[\\^_]/.test(clean) || /[$]|\\\(|\\\[/.test(clean)) return cleanDisplay(clean);
     return `$${cleanDisplay(clean)}$`;
   };
