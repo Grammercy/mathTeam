@@ -1,0 +1,152 @@
+[
+  {
+    "index": 181,
+    "answer": "68",
+    "formula": "Matrix multiplication: k=3(5)+2(-1)=13, w=4(5)+6(-1)=14; compute 2k+3w."
+  },
+  {
+    "index": 182,
+    "answer": "1/2",
+    "formula": "Only log_2(16)=4 and log_4(16)=2 are integers; favorable count 2 of 4."
+  },
+  {
+    "index": 183,
+    "answer": "(12,13)",
+    "formula": "Add vector components: (-5,6)+(17,7)."
+  },
+  {
+    "index": 184,
+    "answer": "97",
+    "formula": "Apply x_{n+2}=x_n+x_{n+1} from x_1=3,x_2=1."
+  },
+  {
+    "index": 185,
+    "answer": "23",
+    "formula": "The product of a 23x13 and 13x92 matrix has 23 rows."
+  },
+  {
+    "index": 186,
+    "answer": "20 sqrt(21)",
+    "formula": "Law of cosines: AC^2=20^2+80^2-2(20)(80)cos(120 degrees)=8400."
+  },
+  {
+    "index": 187,
+    "answer": "88.67 feet",
+    "formula": "Angle depression gives d=h cot(theta); 300=h(cot 8 degrees-cot 15 degrees)."
+  },
+  {
+    "index": 188,
+    "answer": "5/3",
+    "formula": "Geometric sequence: 15r^4=5/27, so r^2=1/9 and middle term 15r^2=5/3."
+  },
+  {
+    "index": 189,
+    "answer": "4",
+    "formula": "In the right triangle the given expression reduces to bc=41; AD=bc/a <= sqrt(41/2)<5, so largest integer is 4."
+  },
+  {
+    "index": 190,
+    "answer": "-10",
+    "formula": "Vieta: root sum -k=5-7+12=10."
+  },
+  {
+    "index": 191,
+    "answer": "-48384",
+    "formula": "Binomial coefficient: C(8,5) 2^5 (-3)^3."
+  },
+  {
+    "index": 192,
+    "answer": "375",
+    "formula": "225r^3=14.4 gives r=2/5; infinite sum a/(1-r)=225/(3/5)."
+  },
+  {
+    "index": 193,
+    "answer": "40",
+    "formula": "S_13=13(a_1+a_13)/2=286 and a_13-a_1=12(3)=36."
+  },
+  {
+    "index": 194,
+    "answer": "18",
+    "formula": "Pair total=C(k,2)2w and quartet total=C(k,4)4w; ratio gives k=11, then w=7."
+  },
+  {
+    "index": 195,
+    "answer": "sqrt(14)",
+    "formula": "Complex modulus: |sqrt(6)+i sqrt(8)|=sqrt(6+8)."
+  },
+  {
+    "index": 196,
+    "answer": "lose $18",
+    "formula": "P(both)=2/36, P(neither)=16/36; expectation=108/18-54(16/36)=-18."
+  },
+  {
+    "index": 197,
+    "answer": "7 sqrt(13)",
+    "formula": "Reflect D across BC; minimum AP+PD is AD'. With side 21, distance is sqrt(7^2+(14sqrt(3))^2)=7sqrt(13)."
+  },
+  {
+    "index": 198,
+    "answer": "2",
+    "formula": "Equate (k+wi)(4+i)=33-13i: 4k-w=33, k+4w=-13, yielding k+w=2."
+  },
+  {
+    "index": 199,
+    "answer": "65 degrees 21 minutes",
+    "formula": "Normal-vector cosine is (3,2,5) dot (-2,-3,6) /(sqrt(38) sqrt(49))=18/(7sqrt(38)); convert arccos to degrees/minutes."
+  },
+  {
+    "index": 200,
+    "answer": "19",
+    "formula": "Use rectangle coordinates: x^2+y^2=441, u^2+v^2=64, xu+yv=32; impose integer DE,BE and DE<BE, then finite integer check gives max x=19."
+  },
+  {
+    "index": 201,
+    "answer": "1/2",
+    "formula": "x=k/3 is whole exactly when k is divisible by 3; 4 of 8 listed values qualify."
+  },
+  {
+    "index": 202,
+    "answer": "0",
+    "formula": "sin(2x)+1>2 requires sin(2x)>1, impossible."
+  },
+  {
+    "index": 203,
+    "answer": "18",
+    "formula": "Law of cosines: (3a)^2=(2b)^2+c^2-2(2b)c cos A, so (p,q,r,w)=(9,4,1,4)."
+  },
+  {
+    "index": 204,
+    "answer": "1",
+    "formula": "Invert y=3x-4: f^{-1}(x)=(x+4)/3, hence k-w=4-3."
+  },
+  {
+    "index": 205,
+    "answer": "90 degrees",
+    "formula": "cot(-x)=-cot(x); equality forces cot(x)=0, whose least positive integral degree is 90."
+  },
+  {
+    "index": 206,
+    "answer": "150.02 feet",
+    "formula": "Quadratic vertex: max s=s_0+v_0^2/64=3+97^2/64=150.015625."
+  },
+  {
+    "index": 207,
+    "answer": "18",
+    "formula": "Volume gives r^2h=12; integer pairs (r,h)=(1,12),(2,3), so distinct sums 13 and 5 total 18."
+  },
+  {
+    "index": 208,
+    "answer": "0.3315",
+    "formula": "Conditional probability = .1968/(.4263+.3642-.1968)."
+  },
+  {
+    "index": 209,
+    "answer": "20 years",
+    "formula": "Continuous compounding: e^(0.07t)=4, so t=ln(4)/0.07=19.8 years, rounded to 20."
+  },
+  {
+    "index": 210,
+    "answer": "14",
+    "formula": "Law of cosines: c^2=113-112(k/w); valid integer c with k+w a square are c=5 and 9, summing to 14."
+  }
+]

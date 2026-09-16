@@ -1,0 +1,152 @@
+[
+  {
+    "index": 61,
+    "answer": "-6",
+    "formula": "Dot product: (a,b)\u00b7(c,d)=ac+bd."
+  },
+  {
+    "index": 62,
+    "answer": "-1",
+    "formula": "Direct substitution in a rational function continuous at x=0: 3/(-3)."
+  },
+  {
+    "index": 63,
+    "answer": "22",
+    "formula": "tan\u03b8=1/2 in QI gives cos\u03b8=2\u221a5/5 and cot\u03b8=2; write as (10+2\u221a5)/5."
+  },
+  {
+    "index": 64,
+    "answer": "56",
+    "formula": "Finite sum: (2^2\u22121)+(2^3\u22121)+(2^4\u22121)+(2^5\u22121)=56."
+  },
+  {
+    "index": 65,
+    "answer": "23/6",
+    "formula": "Max-to-min separation is half-period, so B=1/2; A=3,D=0, and zero location gives C=1/3."
+  },
+  {
+    "index": 66,
+    "answer": "97/64",
+    "formula": "Evaluate composition: sin\u00b2(\u03c0/6)=1/4, g(1/4)=1/4, f(1/4)=97/64."
+  },
+  {
+    "index": 67,
+    "answer": "(-c,a)",
+    "formula": "Sign chart for roots \u2212c,a (simple) and b (double), positive leading coefficient."
+  },
+  {
+    "index": 68,
+    "answer": "-6",
+    "formula": "Geometric sequence: last=2(\u22123)^6=1458, so second term=2(\u22123)=\u22126."
+  },
+  {
+    "index": 69,
+    "answer": "12",
+    "formula": "Let c=d=t; use a\u00b2+b\u00b2\u2265(a+b)\u00b2/2. Equality at maximum gives t=(5+\u221a5)/2, so 5+5+2=12."
+  },
+  {
+    "index": 70,
+    "answer": "80",
+    "formula": "Triangle area = (1/2)ab sin C = (1/2)(20)(16)sin150\u00b0."
+  },
+  {
+    "index": 71,
+    "answer": "90\u00b0",
+    "formula": "Solving the trig system with A+B+C=180\u00b0 gives sinA=4/5, cosA=3/5, sinB=3/5, cosB=4/5; hence C=90\u00b0."
+  },
+  {
+    "index": 72,
+    "answer": "52",
+    "formula": "Cross product gives normal (8,\u221233,\u22127); plane is 8x\u221233y\u22127z+84=0, sum=52."
+  },
+  {
+    "index": 73,
+    "answer": "-6.375",
+    "formula": "Complete square: (x+3)\u00b2=(3/2)(y+6), so p=3/8 and directrix y=\u22126\u2212p=\u22126.375."
+  },
+  {
+    "index": 74,
+    "answer": "4",
+    "formula": "Conjugate roots \u00b1\u221a3\u00b1\u221a5; polynomial (x\u00b2\u22128)\u00b2\u221260=x\u2074\u221216x\u00b2+4."
+  },
+  {
+    "index": 75,
+    "answer": "4,989,600",
+    "formula": "Repeated-letter arrangements: 11!/(2!\u00b72!\u00b72!)."
+  },
+  {
+    "index": 76,
+    "answer": "97",
+    "formula": "Shift roots by 2 via g(x\u22122); constant equation \u22128\u22124d\u22122e\u2212f=\u2212105 gives 4d+2e+f=97."
+  },
+  {
+    "index": 77,
+    "answer": "21",
+    "formula": "(cos\u00b3+sin\u00b3)/(cos+sin)=1\u2212sin\u03b8cos\u03b8=1\u2212(1/2)sin2\u03b8; 7k+28w=21."
+  },
+  {
+    "index": 78,
+    "answer": "1847/207",
+    "formula": "M\u00f6bius map matrix squares to scalar (M\u00b2=573I), so T\u00b2 is identity; n=2016 even gives t\u2082=(1\u221224\u00b777)/(24\u22123\u00b777)."
+  },
+  {
+    "index": 79,
+    "answer": "2",
+    "formula": "For x<0 line>1\u2265sinc; for x>0 sign checks/IVT give one root in (0,2) and one in (2,\u03c0), none afterward."
+  },
+  {
+    "index": 80,
+    "answer": "(739/78, 110/13)",
+    "formula": "Coordinates give C=(63/13,660/13), total area 660; area ratios yield yP=110/13 and then xP=739/78."
+  },
+  {
+    "index": 81,
+    "answer": "2\u221a2",
+    "formula": "Distance formula: |PQ|=\u221a[(-2)\u00b2+(-2)\u00b2]."
+  },
+  {
+    "index": 82,
+    "answer": "(15,1)",
+    "formula": "Composition: f(g(x))=5(3x\u22121)+6=15x+1."
+  },
+  {
+    "index": 83,
+    "answer": "7i,-7i",
+    "formula": "x\u00b2+40=\u22129 implies x\u00b2=\u221249."
+  },
+  {
+    "index": 84,
+    "answer": "12",
+    "formula": "Since x\u00b2+y\u00b2\u22652xy, 60=x\u00b2+3xy+y\u00b2\u22655xy; equality at x=y=\u221a6."
+  },
+  {
+    "index": 85,
+    "answer": "3/2",
+    "formula": "Sum-to-product: sin3x+sinx=2sin2x cosx; largest solution is 3\u03c0/2."
+  },
+  {
+    "index": 86,
+    "answer": "1/8",
+    "formula": "Amplitude=1/2, period=2\u03c0/(8\u03c0)=1/4, product=1/8."
+  },
+  {
+    "index": 87,
+    "answer": "123",
+    "formula": "Recurrence: F5=a, F6=a+7, F7=2a+7=29; then F8=47,F9=76,F10=123."
+  },
+  {
+    "index": 88,
+    "answer": "2",
+    "formula": "Change of base: log\u2081\u2080(x+2)/2=log\u2081\u2080x; hence x\u00b2=x+2, and domain x>0 gives x=2."
+  },
+  {
+    "index": 89,
+    "answer": "55.49\u00b0",
+    "formula": "Vector angle: cos\u03b8=(u\u00b7v)/(|u||v|)=11/(\u221a13\u221a29)."
+  },
+  {
+    "index": 90,
+    "answer": "31/35",
+    "formula": "Inclusion-exclusion: 3/7+4/5\u2212(3/7)(4/5)=31/35."
+  }
+]

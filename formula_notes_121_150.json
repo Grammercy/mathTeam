@@ -1,0 +1,152 @@
+[
+  {
+    "index": 121,
+    "answer": "10",
+    "formula": "Range distinct values are {1,2,3,k}; 1·2·3·k=60."
+  },
+  {
+    "index": 122,
+    "answer": "1",
+    "formula": "(3i)(ki)(wi)=-3kwi=-12i, so kw=4 and k<w."
+  },
+  {
+    "index": 123,
+    "answer": "9.75",
+    "formula": "Perpendicular vectors have zero dot product: 5.1(-6.5)+3.4k=0."
+  },
+  {
+    "index": 124,
+    "answer": "1/3",
+    "formula": "Geometric ratio r=k; k/(1-k)=2k/(k+1)."
+  },
+  {
+    "index": 125,
+    "answer": "2√5",
+    "formula": "Complete squares: (x−1)^2/9+(y−4)^2/5=1; minor axis=2√5."
+  },
+  {
+    "index": 126,
+    "answer": "9",
+    "formula": "(k+wi)(9−2i)=74−7i gives 9k+2w=74 and 9w−2k=−7; k+w=9."
+  },
+  {
+    "index": 127,
+    "answer": "2/7",
+    "formula": "Each complete B-C-J round has probability (1/2)^3; Christie succeeds on a round with probability 1/4, giving (1/4)/(1−1/8)=2/7."
+  },
+  {
+    "index": 128,
+    "answer": "91",
+    "formula": "Using domain (2,2√10)∪(2√10,8√3], evaluate 3k+2a+b+c+d+7g+h=91."
+  },
+  {
+    "index": 129,
+    "answer": "4812/85",
+    "formula": "Coordinate the triangle FED (area 252), place A,B,C by the given side ratios, and use the determinant area formula."
+  },
+  {
+    "index": 130,
+    "answer": "10",
+    "formula": "The term 6[x^2(x−7)^3]^2 has degree 2(2+3)=10."
+  },
+  {
+    "index": 131,
+    "answer": "660",
+    "formula": "There are C(12,2)=66 pairings, each playing 10 times: 66·10=660."
+  },
+  {
+    "index": 132,
+    "answer": "√2+√3",
+    "formula": "log_9 x=log_3 y implies x=y^2; y^4−5y^2+6=0, so y=√2,√3."
+  },
+  {
+    "index": 133,
+    "answer": "-110",
+    "formula": "d=(-28−8)/12=−3; total 13-term sum=−130, subtract endpoints 8+(−28) to get −110."
+  },
+  {
+    "index": 134,
+    "answer": "16",
+    "formula": "sin((A−B)/2)/cos(C/2)=(a−b)/c; |40−b|/50=12/25, with diagram selecting b=16."
+  },
+  {
+    "index": 135,
+    "answer": "-10",
+    "formula": "Use i^2=−1, i^3=−i in 7+ki^3+x=−2+3i and x=−9−7i; −k−7=3."
+  },
+  {
+    "index": 136,
+    "answer": "-70",
+    "formula": "Roots r,−r,−n give r^2=n+1 and k=−n(n+1); sum n=1..5 is −70."
+  },
+  {
+    "index": 137,
+    "answer": "1/7",
+    "formula": "Total arrangements 7!/(3!2!2!)=210; math-together arrangements 5!/(2!2!)=30."
+  },
+  {
+    "index": 138,
+    "answer": "18",
+    "formula": "In QIII, cos A=−√5/3; sin(2A)=2sinA cosA=4√5/9, so 4+5+9=18."
+  },
+  {
+    "index": 139,
+    "answer": "-32",
+    "formula": "(x−1−2i)(x−1+2i)(x−5)=(x^2−2x+5)(x−5), giving k+p=−7−25=−32."
+  },
+  {
+    "index": 140,
+    "answer": "21",
+    "formula": "Law of cosines plus condition yields a=19t,b=16t,c=21t; smallest c=21."
+  },
+  {
+    "index": 141,
+    "answer": "16",
+    "formula": "Limit by continuity: 2^(9−5)=16."
+  },
+  {
+    "index": 142,
+    "answer": "4",
+    "formula": "Unroll recurrence: a_10=9a_8−5(3+1)=9a_8−20, hence a_8=4."
+  },
+  {
+    "index": 143,
+    "answer": "(-31,71)",
+    "formula": "3(3,2)+5(−8,13)=(−31,71)."
+  },
+  {
+    "index": 144,
+    "answer": "239.128",
+    "formula": "Σ_{k=2}^5(k^3+3.782)=224+4(3.782)=239.128."
+  },
+  {
+    "index": 145,
+    "answer": "2/98415",
+    "formula": "Ratio r=1/6; a_10=(1024/5)(1/6)^9=2/98415."
+  },
+  {
+    "index": 146,
+    "answer": "231",
+    "formula": "f^{-1} fails exactly when w duplicates an existing output: w∈{7,3,11}; product=231."
+  },
+  {
+    "index": 147,
+    "answer": "36 (published key says 26)",
+    "formula": "Roots m,m+1,16−2m give k=−3m^2+31m+16 and w=−2m(m+1)(8−m). With k>0, m=1..10; max |k−w| occurs m=10, giving k=36."
+  },
+  {
+    "index": 148,
+    "answer": "573.6 feet",
+    "formula": "Vertical distance=1000 sin 35°≈573.576."
+  },
+  {
+    "index": 149,
+    "answer": "216",
+    "formula": "Law of cosines gives w^2=3(k−6)^2+36; w<164 gives w=6,12,42,156, sum 216."
+  },
+  {
+    "index": 150,
+    "answer": "-279",
+    "formula": "det(A)=det(first)det(second)=(−9)(31)=−279."
+  }
+]

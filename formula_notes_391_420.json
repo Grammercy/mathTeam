@@ -1,0 +1,152 @@
+[
+  {
+    "index": 391,
+    "answer": "-25",
+    "formula": "Factor x(x^2+kx+6); require quadratic discriminant k^2-24>0, so k_1=5 and k_2=-5."
+  },
+  {
+    "index": 392,
+    "answer": "1/19",
+    "formula": "The period of tan(ax+b) is pi/|a|."
+  },
+  {
+    "index": 393,
+    "answer": "116.971",
+    "formula": "Use the regular-pentagon circumradius R=s/(2 sin 36\u00b0), locate pentagram intersections, then apply the shoelace formula."
+  },
+  {
+    "index": 394,
+    "answer": "1577/34650",
+    "formula": "Partial fractions: 4/((n-3)(n+2))=(4/5)(1/(n-3)-1/(n+2)); telescope."
+  },
+  {
+    "index": 395,
+    "answer": "33",
+    "formula": "sin^2 x=cos^2 x iff cos(2x)=0; enumerate x=pi/4+n pi/2 in the interval."
+  },
+  {
+    "index": 396,
+    "answer": "50",
+    "formula": "Substitute z=-2t into both plane equations and equate constant and t coefficients to find a=8,b=2,k=4,w=1."
+  },
+  {
+    "index": 397,
+    "answer": "0",
+    "formula": "Compute the triangle area by the shoelace determinant for (e,e^3),(e^2,e^2),(e^3,e); sum polynomial coefficients."
+  },
+  {
+    "index": 398,
+    "answer": "6",
+    "formula": "Corresponding helix points differ by (-6 cos t,-6 sin t,0); use sin^2 t+cos^2 t=1."
+  },
+  {
+    "index": 399,
+    "answer": "10.352",
+    "formula": "Integrate |sin x| piecewise; area to 3pi is 5, then 1-cos(alpha)=0.4 for w=3pi+alpha."
+  },
+  {
+    "index": 400,
+    "answer": "1022",
+    "formula": "Pythagorean identity makes sin^2(k\u00b0)+cos^2(k\u00b0)-1=0 for every k; choose largest integer below 1023."
+  },
+  {
+    "index": 401,
+    "answer": "0.8",
+    "formula": "From sin x=0.6, cos x=\u00b10.8; tan x>0 with sin x>0 forces cos x>0."
+  },
+  {
+    "index": 402,
+    "answer": "20sqrt(3)",
+    "formula": "Continuity permits direct substitution: lim x sqrt(x+2)=10 sqrt(12)."
+  },
+  {
+    "index": 403,
+    "answer": "2^(n+1)",
+    "formula": "Induction gives M^n=[[2^n,2^n-1],[0,1]]; sum entries."
+  },
+  {
+    "index": 404,
+    "answer": "-7/3",
+    "formula": "Cancel factorials to get ((x-3)(x-4))/((x+1)(x+2))=(x^2-7x+12)/(x^2+3x+2); b/n=-7/3."
+  },
+  {
+    "index": 405,
+    "answer": "(19/5,3/5,14/5)",
+    "formula": "Section formula: P+(2/5)(Q-P)."
+  },
+  {
+    "index": 406,
+    "answer": "6",
+    "formula": "Use the 2x2 determinant ad-bc and permutations of four distinct entries; at most six distinct determinant values, attainable."
+  },
+  {
+    "index": 407,
+    "answer": "-7/4",
+    "formula": "f(x)=g^{-1}(x) implies g(f(x))=x; solve 4x^2+7x-14=0 and use Vieta sum -7/4."
+  },
+  {
+    "index": 408,
+    "answer": "1365",
+    "formula": "Stars and bars for five positive integers summing to 16: C(15,4)."
+  },
+  {
+    "index": 409,
+    "answer": "1444",
+    "formula": "Inclusion-exclusion over multiples of 2, 3, and 7."
+  },
+  {
+    "index": 410,
+    "answer": "10.776",
+    "formula": "Vertical tangent first at t=pi/4 and horizontal first at t=3pi/4; distance squared is e^(pi/2)+e^(3pi/2)."
+  },
+  {
+    "index": 411,
+    "answer": "64.381",
+    "formula": "Three 10-by-10 squares give rectangle area 300; ellipse semiaxes 5 and 15 has area 75pi; subtract."
+  },
+  {
+    "index": 412,
+    "answer": "2sqrt(5)",
+    "formula": "Apollonius median formula: AD=(1/2)sqrt(2AB^2+2AC^2-BC^2)."
+  },
+  {
+    "index": 413,
+    "answer": "64.784 degrees",
+    "formula": "Angle between planes equals angle between normals; cos(theta)=(n1 dot n2)/(|n1||n2|)=72/169."
+  },
+  {
+    "index": 414,
+    "answer": "360",
+    "formula": "Treat PRIME as one block; arrange 6 objects with two identical E letters: 6!/2!."
+  },
+  {
+    "index": 415,
+    "answer": "2737 feet",
+    "formula": "Right-triangle cotangent: 6000=k(cot15\u00b0-cot33\u00b0)."
+  },
+  {
+    "index": 416,
+    "answer": "7/17",
+    "formula": "Use tan(2 arctan(1/5))=5/12 and tan(pi/4-u)=(1-tan u)/(1+tan u)."
+  },
+  {
+    "index": 417,
+    "answer": "-3",
+    "formula": "Translate roots by substituting y=x-2 into 3y^3+2y^2+y-1; resulting polynomial 3x^3-16x^2+29x-19."
+  },
+  {
+    "index": 418,
+    "answer": "4.179",
+    "formula": "Adjacent unit-circle centers form chord 2: 2r sin(pi/13)=2, so r=csc(pi/13)."
+  },
+  {
+    "index": 419,
+    "answer": "(3/2,-3/4,1/2)",
+    "formula": "One rose leaf has area pi/3; equality requires equilateral triangle area 2pi/3, so SK=2^(3/2)3^(-3/4)pi^(1/2)."
+  },
+  {
+    "index": 420,
+    "answer": "220 units",
+    "formula": "Parabola y=-t^2+22t+23 reaches maximum at vertex t=11; x changes from -20 to 200."
+  }
+]

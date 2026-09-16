@@ -1,0 +1,152 @@
+[
+  {
+    "index": 211,
+    "answer": "B",
+    "formula": "Parabola latus rectum is 4p; focus (2,5) and directrix x=7 give p=5, so required length is 20, contradicting 16\u221a5."
+  },
+  {
+    "index": 212,
+    "answer": "0.35",
+    "formula": "A and B are antipodal. With OA=(1,12), OP=(-8,9), cos \u03b1=OA\u00b7OP/(145)=20/29; k=\u03b1/(\u03c0\u2212\u03b1), \u03b1=acos(20/29), giving 0.3473."
+  },
+  {
+    "index": 213,
+    "answer": "0.5328",
+    "formula": "For p=.8,n=100, \u03c3=\u221a(p(1\u2212p)/n)=.04. z bounds are \u22121 and .5; use \u03a6(.5)\u2212\u03a6(\u22121)=.6915\u2212.1587."
+  },
+  {
+    "index": 214,
+    "answer": "(6,1,18) and (1,3,19)",
+    "formula": "Eliminate b: a+5c=96 and b=2c\u221235. Positive integer c is 18 or 19."
+  },
+  {
+    "index": 215,
+    "answer": "19",
+    "formula": "x\u2074\u221215x\u00b2+36=(x\u00b2\u221212)(x\u00b2\u22123); factor x\u22122\u221a3, so 5k+3w=5(2)+3(3)=19."
+  },
+  {
+    "index": 216,
+    "answer": "1/14",
+    "formula": "On ordered simplex x\u2264y\u2264z, impose z<1/2 and z\u22653x. Region area is 1/168 versus ordered simplex area 1/12, ratio 1/14."
+  },
+  {
+    "index": 217,
+    "answer": "7",
+    "formula": "Range is (\u2212\u221e,\u22122]\u222a(1,\u221e); 2k+11w=2(\u22122)+11(1)=7."
+  },
+  {
+    "index": 218,
+    "answer": "0.4888",
+    "formula": "tan(2\u03b8)=B/(A\u2212C)=2\u221a6/3; cos(2\u03b8)=3/\u221a33, so sin\u03b8=\u221a((1\u22123/\u221a33)/2)=.4888."
+  },
+  {
+    "index": 219,
+    "answer": "No solution",
+    "formula": "Coordinates B=(0,0), C=(22,0), A=(11,2\u221a26), D=(3,0). AF=DF intersects line AC only beyond C, so no F on segment AC."
+  },
+  {
+    "index": 220,
+    "answer": "\u221270",
+    "formula": "k+wi=5(10\u221224i)=50\u2212120i, hence k+w=50\u2212120=\u221270."
+  },
+  {
+    "index": 221,
+    "answer": "1",
+    "formula": "Use sin\u00b2u+cos\u00b2u=1."
+  },
+  {
+    "index": 222,
+    "answer": "32",
+    "formula": "\u03a3_{k=1}^4(2k+3)=2(4\u00b75/2)+3\u00b74=32."
+  },
+  {
+    "index": 223,
+    "answer": "4/3",
+    "formula": "Geometric series has a=2,r=\u22121/2; sum=a/(1\u2212r)=2/(3/2)=4/3."
+  },
+  {
+    "index": 224,
+    "answer": "1464",
+    "formula": "Right triangles give AB=967.3/tan17.13\u00b0, AC=967.3/tan11.87\u00b0; BC=AC\u2212AB=1463.70\u22481464."
+  },
+  {
+    "index": 225,
+    "answer": "(\u22128,75)",
+    "formula": "From a\u2212b=c+d, d=a\u2212b\u2212c=(3,2)\u2212(\u22128,13)\u2212(19,\u221286)=(\u22128,75)."
+  },
+  {
+    "index": 226,
+    "answer": "32",
+    "formula": "Termwise difference n(n+1)\u2212n\u00b2=n; sum is k(k+1)/2=528, so k=32."
+  },
+  {
+    "index": 227,
+    "answer": "\u221260",
+    "formula": "Roots sum \u221211, product k. Difference\u00b2=121\u22124k; sum of squares=121\u22122k. Set 121\u22124k=(121\u22122k)+120."
+  },
+  {
+    "index": 228,
+    "answer": "167",
+    "formula": "For tangent angle \u03b8, sin(\u03b8/2)=(8\u22123)/11=5/11. Thus sin\u03b8=40\u221a6/121, and k+w+f=40+6+121=167."
+  },
+  {
+    "index": 229,
+    "answer": "210",
+    "formula": "cot x=\u221a3 has reference angle 30\u00b0; QIII gives x=210\u00b0."
+  },
+  {
+    "index": 230,
+    "answer": "5/9",
+    "formula": "Bayes: [(1/2)(3/4)]/[(1/2)(3/5)+(1/2)(3/4)]=5/9."
+  },
+  {
+    "index": 231,
+    "answer": "0.75",
+    "formula": "(y\u22122)\u00b2=4p(x\u22127); point (3,\u22128) gives 100=\u221216p, p=\u221225/4. Focus x=7+p=.75."
+  },
+  {
+    "index": 232,
+    "answer": "8\u221a6",
+    "formula": "If spacing is d and tangent radius R, AB lies at R\u22123d: 3d(2R\u22123d)=144. Then CD\u00b2=16d(R\u2212d)>384, so CD>8\u221a6."
+  },
+  {
+    "index": 233,
+    "answer": "18.89568",
+    "formula": "Let terms be ar^j. Product of the two sums determines r=1/5; then a=1875. Product=a^10r^45=18.89568."
+  },
+  {
+    "index": 234,
+    "answer": "33",
+    "formula": "sin57\u00b0=cos33\u00b0; with 0\u00b0<k<90\u00b0, cos k\u00b0=cos33\u00b0 gives k=33."
+  },
+  {
+    "index": 235,
+    "answer": "1640/9",
+    "formula": "Pair sums imply r\u2074=(2/9)/18=1/81, so r=\u00b11/3. Summing 8 terms gives 1640/9 for either ratio."
+  },
+  {
+    "index": 236,
+    "answer": "39.46",
+    "formula": "Apply cyclic quadrilateral angle/arc relations in the rhombus and use CE=12 to determine the circumradius; requested arc A\u2192D\u2192B evaluates to 39.46."
+  },
+  {
+    "index": 237,
+    "answer": "12",
+    "formula": "C(n,5)=792; direct binomial value C(12,5)=792, so n=12."
+  },
+  {
+    "index": 238,
+    "answer": "2",
+    "formula": "Coefficient of x^j is C(5,j)2^j3^(5\u2212j). Setting equal to 1080 gives j=2."
+  },
+  {
+    "index": 239,
+    "answer": "91809",
+    "formula": "Constant third differences give P(x)=x\u00b3+7x\u00b2\u221215x+4; P(43)=91809."
+  },
+  {
+    "index": 240,
+    "answer": "1/2",
+    "formula": "Term 3n\u22122 is odd iff n is odd; 5 of first 10 indices are odd, giving 1/2."
+  }
+]

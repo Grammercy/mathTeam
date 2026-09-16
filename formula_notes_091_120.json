@@ -1,0 +1,152 @@
+[
+  {
+    "index": 91,
+    "answer": "22.02°",
+    "formula": "Inscribed angle subtending chord AB: C = arcsin((AB/2)/R) = arcsin(3/8)."
+  },
+  {
+    "index": 92,
+    "answer": "-3",
+    "formula": "log(x/(x−5)) = k+3; for x>5 the left side ranges over (0,∞), so no solution through k+3≤0; largest k=−3."
+  },
+  {
+    "index": 93,
+    "answer": "2390",
+    "formula": "Remainder theorem: k = 4(−5)^4 + 2(−5)^3 + 5(−5)^2 + 15."
+  },
+  {
+    "index": 94,
+    "answer": "62",
+    "formula": "Using sin A=4/7, cos A=√33/7, sin B=2√6/7, cos B=5/7: tan(A+B)=(4√33+10√6)/9; sum coefficients/radicands/denominator = 62."
+  },
+  {
+    "index": 95,
+    "answer": "2/7",
+    "formula": "P = 1/6 + (5/6)(1/2)P, since Evie must miss 6 and Xavier roll even to repeat; solve P=2/7."
+  },
+  {
+    "index": 96,
+    "answer": "70.57°",
+    "formula": "h=d tan50°=(d+10)tan40°; then k=arctan(h/10)."
+  },
+  {
+    "index": 97,
+    "answer": "(4,√3)",
+    "formula": "On y²=2x−5, x=(y²+5)/2. Minimize ((y²−5)/2)^2+y², giving y²=3 and x=4."
+  },
+  {
+    "index": 98,
+    "answer": "502",
+    "formula": "Trailing zeros of 2015!: floor(2015/5)+floor(2015/25)+floor(2015/125)+floor(2015/625)=403+80+16+3."
+  },
+  {
+    "index": 99,
+    "answer": "−√7/4",
+    "formula": "sec θ=4/3 implies |cos θ|=3/4 and |sin θ|=√7/4; least sine is negative."
+  },
+  {
+    "index": 100,
+    "answer": "10",
+    "formula": "Angle bisector length CD=2ab cosθ/(a+b)=ab/[2(a+b)], with (a+b)/ab=1/20."
+  },
+  {
+    "index": 101,
+    "answer": "−3",
+    "formula": "Roots 1±√2 have sum 2=−b and product −1=c; b+c=−3."
+  },
+  {
+    "index": 102,
+    "answer": "19i√3/6",
+    "formula": "1−b/(4+i√3)+b/(4−i√3)=0; reciprocal difference = 2i√3/19, so b=19i√3/6."
+  },
+  {
+    "index": 103,
+    "answer": "(1,−1)",
+    "formula": "Complete squares: original conic center (1,1); clockwise 90° map (x,y)→(y,−x)."
+  },
+  {
+    "index": 104,
+    "answer": "2",
+    "formula": "Polar equivalence: (r,θ)=(r,θ+2πn)=(−r,θ+π+2πn); only I and III coincide."
+  },
+  {
+    "index": 105,
+    "answer": "3",
+    "formula": "3√(7−x)=x+3; squaring gives x²+15x−54=0, roots 3 and −18; domain leaves x=3."
+  },
+  {
+    "index": 106,
+    "answer": "1",
+    "formula": "Expression is binomial expansion (cos²x+sin²x)^3=1."
+  },
+  {
+    "index": 107,
+    "answer": "177",
+    "formula": "Integer-root/monic conditions yield P(x)=(x−7)(x²−4x−1); P(10)=3·59=177."
+  },
+  {
+    "index": 108,
+    "answer": "8",
+    "formula": "Equal RR and BB probabilities imply R=B=n. Mixed probability n/(2n−1)=4/7 gives n=4, total 8."
+  },
+  {
+    "index": 109,
+    "answer": "3/4",
+    "formula": "Second line y=3x/4−7/4 is parallel; distance |b+7/4|/(5/4)=2. Positive solution b=3/4."
+  },
+  {
+    "index": 110,
+    "answer": "2",
+    "formula": "Infinite geometric sum (2−i)/(1−i/2)=2."
+  },
+  {
+    "index": 111,
+    "answer": "180",
+    "formula": "Coefficient of x²y²z² is C(5,2)C(4,2)C(3,2)=10·6·3=180."
+  },
+  {
+    "index": 112,
+    "answer": "5/2",
+    "formula": "Set a=ln x: 2a²=5a+3, roots 3 and −1/2; sum a=5/2."
+  },
+  {
+    "index": 113,
+    "answer": "4",
+    "formula": "From f(4x+3)=8x−1, f(t)=2t−7; inverse=(x+7)/2, so a+b=4."
+  },
+  {
+    "index": 114,
+    "answer": "(3+2√2)/3",
+    "formula": "u=2 sinx+(1/9)/u, sinx=2√2/3; positive quadratic root u=1+2√2/3."
+  },
+  {
+    "index": 115,
+    "answer": "2",
+    "formula": "Determinant=(x−2)(x−3)−2x(x+5)=−x²−15x+6; discriminant positive, hence 2 real singular x-values."
+  },
+  {
+    "index": 116,
+    "answer": "2/5",
+    "formula": "6p²(1−p)²=4p³(1−p) gives David p=3/5; Jim probability 1−p=2/5."
+  },
+  {
+    "index": 117,
+    "answer": "2√5",
+    "formula": "Vertex at t=0: (2,1); y-intercept t=−2: (0,−3); distance √[(2)^2+(4)^2]=2√5."
+  },
+  {
+    "index": 118,
+    "answer": "4π",
+    "formula": "cos²θ=3/5 has four symmetric solutions in [0,2π); their sum is 4π."
+  },
+  {
+    "index": 119,
+    "answer": "40",
+    "formula": "Period 3: f(1)=9, f(2)=2, f(3)=4; 2f(1)+3f(2)+4f(3)=18+6+16=40."
+  },
+  {
+    "index": 120,
+    "answer": "2",
+    "formula": "(a+b+c)(a+b−c)=(a+b)^2−c²=2ab(1+cos C)=3ab; cos C=1/2, sec C=2."
+  }
+]

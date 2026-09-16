@@ -8,6 +8,7 @@
   const form = document.querySelector('#answer-form');
   const input = document.querySelector('#answer');
   const result = document.querySelector('#result');
+  const formula = document.querySelector('#formula');
   const next = document.querySelector('#next');
   let deck = [];
   let index = 0;
@@ -67,6 +68,7 @@
     input.disabled = false;
     input.focus();
     result.hidden = true;
+    formula.hidden = true;
     next.hidden = true;
     if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([question, result]);
   }
@@ -90,8 +92,13 @@
       ? 'Correct.'
       : `Answer: <span class="answer">${answerDisplay(item.answer)}</span>`;
     result.hidden = false;
+    const note = window.FORMULA_NOTES?.[String(item._index ?? allProblems.indexOf(item) + 1)];
+    if (note?.formula) {
+      formula.innerHTML = `Useful: ${cleanDisplay(note.formula)}`;
+      formula.hidden = false;
+    }
     next.hidden = false;
-    if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([result]);
+    if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([result, formula]);
   });
   next.addEventListener('click', () => { index = (index + 1) % deck.length; render(); });
   sourceSelect.addEventListener('change', loadDeck);
