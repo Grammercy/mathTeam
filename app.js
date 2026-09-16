@@ -10,6 +10,10 @@
   const result = document.querySelector('#result');
   const formula = document.querySelector('#formula');
   const next = document.querySelector('#next');
+  const practiceView = document.querySelector('.practice');
+  const formulaView = document.querySelector('#formula-view');
+  const formulaList = document.querySelector('#formula-list');
+  const tabs = [...document.querySelectorAll('.tab')];
   let deck = [];
   let index = 0;
   let checked = false;
@@ -55,6 +59,22 @@
     if (!/[\\^_]/.test(clean) || /[$]|\\\(|\\\[/.test(clean)) return cleanDisplay(clean);
     return `$${cleanDisplay(clean)}$`;
   };
+  function renderFormulaList() {
+    const notes = window.FORMULA_NOTES || {};
+    formulaList.innerHTML = Object.keys(notes).sort((a, b) => Number(a) - Number(b)).map(key => {
+      const item = allProblems[Number(key) - 1];
+      const label = item ? `${item.source} ${item.year} · Problem ${item.number}` : `Problem ${key}`;
+      return `<article class="formula-row"><span class="formula-label">${label}</span><span class="formula-text">${cleanDisplay(notes[key].formula)}</span></article>`;
+    }).join('');
+    if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([formulaList]);
+  }
+  tabs.forEach(tab => tab.addEventListener('click', () => {
+    const formulas = tab.dataset.tab === 'formulas';
+    tabs.forEach(button => button.classList.toggle('active', button === tab));
+    practiceView.hidden = formulas;
+    formulaView.hidden = !formulas;
+    if (formulas) renderFormulaList();
+  }));
 
   function render() {
     const item = deck[index];
