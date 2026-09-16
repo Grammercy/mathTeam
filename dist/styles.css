@@ -54,6 +54,8 @@ button:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .next span { color: var(--muted); font: .8rem "DM Mono", monospace; margin-left: 5px; }
 .formula-view { max-height: calc(100vh - 110px); overflow: auto; margin: 8vh auto 8vh; }
 .formula-list { display: grid; gap: 1px; }
+.formula-group { margin-bottom: 28px; }
+.formula-group h2 { margin: 0 0 8px; color: var(--blue); font: 500 .72rem "DM Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
 .formula-row { display: grid; grid-template-columns: minmax(160px, 24%) 1fr; gap: 18px; padding: 12px 0; border-bottom: 1px solid var(--surface); }
 .formula-label { color: var(--muted); font: .72rem "DM Mono", monospace; }
 .formula-text { color: var(--text); line-height: 1.45; }
