@@ -37,6 +37,7 @@
   };
   const cleanDisplay = value => value
     .replace(/\\(?:textbf|textit)\{([^{}]*)\}/g, '$1')
+    .replace(/\\emph\{([^{}]*)\}/g, '$1')
     .replace(/\\(?:textbf|textit)\{\s*$/g, '')
     .replace(/\\\(\\text\{\s*$/g, '')
     .replace(/\\(?:par|quad|noindent)/g, ' ')
