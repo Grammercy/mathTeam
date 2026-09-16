@@ -36,6 +36,7 @@
     return x !== null && y !== null && Math.abs(x - y) < 1e-8;
   };
   const cleanDisplay = value => value
+    .replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/\\(?:textbf|textit)\{([^{}]*)\}/g, '$1')
     .replace(/\\emph\{([^{}]*)\}/g, '$1')
     .replace(/\\(?:textbf|textit)\{\s*$/g, '')
