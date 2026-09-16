@@ -21,6 +21,7 @@
     .replace(/\\text\{([^{}]*)\}/g, '$1')
     .replace(/\\mathrm\{([^{}]*)\}/g, '$1')
     .replace(/\\circ/g, '°').replace(/\\pi/g, 'pi')
+    .replace(/°/g, '')
     .replace(/[${}\\]/g, '').replace(/\^/g, '**')
     .replace(/\s+/g, '').toLowerCase();
   const numeric = value => {
