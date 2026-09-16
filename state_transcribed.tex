@@ -1,7 +1,7 @@
 \documentclass[10pt]{article}
 \usepackage[margin=0.75in]{geometry}
 \usepackage{amsmath,amssymb}
-\usepackage{tikz}
+\usepackage{graphicx}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3pt}
 \begin{document}
@@ -19,7 +19,7 @@
 \item Let $k$ be selected at random from the set $\{1,2,3,4,6,8,12,18\}$. If $3x=k$, find the probability that the solution for $x$ is a whole number. Express your answer as a common fraction reduced to lowest terms.\\
 \textbf{Solution:} $\dfrac12$.
 
-\item Let $x$ be a positive integer such that $x<10$. For how many distinct values of $x$ is $\sin(2x)+1>2$?\\
+\item Let $x$ be a positive integer such that $x<100$. For how many distinct values of $x$ is $\sin(2x)+1>2$?\\
 \textbf{Solution:} $0$ (also accepted: ``Zero'' or ``None'').
 
 \item If the sides of a triangle have lengths $3a$, $2b$, and $c$, with $\angle A$ opposite the side of length $3a$, then
@@ -68,8 +68,8 @@ If $p,q,r,w$ are all positive integers, find the smallest possible value of $p+q
 \item In this problem, assume that the standard deviation is calculated according to the standard method of calculating the standard deviation for a set of sample proportions. Also, assume the following table of $z$-scores with the accompanying standard normal probabilities is accurate. On the table, $-2(.0228)$ means there is a normal probability of $.0228$ of obtaining a $z$-score of $-2$ or less.
 \[
 \begin{array}{rrrrr}
--2(.0228)&-1.9(.0287)&-1.8(.0359)&-1.7(.044)&-1.6(.054)\\
--1.5(.0668)&-1.45(.0735)&-1.4(.0808)&-1.35(.085)&-1.3(.0968)\\
+-2(.0228)&-1.9(.0287)&-1.8(.0359)&-1.7(.0446)&-1.6(.0548)\\
+-1.5(.0668)&-1.45(.0735)&-1.4(.0808)&-1.35(.0885)&-1.3(.0968)\\
 -1.25(.1056)&-1.2(.1151)&-1.1(.1357)&-1(.1587)&-0.9(.1841)\\
 -0.8(.2119)&-0.75(.2266)&-0.7(.2420)&-0.6(.2743)&-0.5(.3085)\\
 -0.4(.3446)&-0.3(.3821)&-0.25(.4013)&-0.1(.4602)&0(.5000)\\
@@ -103,13 +103,16 @@ Be certain to express your answer as ordered triples of the form $(a,b,c)$.\\
 \textbf{Solution:} $7$.
 
 \item The coordinate axes of the graph of the equation $7x^2+8\sqrt6\,xy-5y^2=28$ are rotated through a positive acute angle ($\theta$) so as to eliminate the $xy$ term. Find $\sin(\theta)$. Express your answer as a decimal rounded to the nearest ten-thousandth.\\
-\textbf{Solution:} $0.488$.
+\textbf{Solution:} $0.4888$.
 
 \item In the figure shown, $AB=AC=15$, $BD=3$, and $DC=19$. Points $A,E,$ and $B$ are collinear; points $B,D,$ and $C$ are collinear; and points $A,F,$ and $C$ are collinear. $AE=DE$, and $AF=DF$. Find $DE$. Express your answer as a decimal rounded to the nearest hundredth.\\
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2010_q20.png}
+\end{center}
 \textbf{Solution:} No solution.
 \end{enumerate}
 % 2011 Precalculus State Packet (problems and printed answers)
-% The diagrams use TikZ; include \usepackage{tikz} in the document preamble.
 \subsection*{State 2011 -- Precalculus}
 \begin{enumerate}
 \item Let $i=\sqrt{-1}$. If $k$ and $w$ are real numbers such that
@@ -130,20 +133,10 @@ $\sin^2(3567894k)+\cos^2(3567894k)$. \(\text{Solution: }1\)
 \item Find the sum of the terms of an infinite geometric sequence whose first four terms are $2$, $-1$, $\frac12$, and $-\frac14$. Express your answer as an improper fraction reduced to lowest terms. \(\text{Solution: }\frac43\)
 
 \item In the diagram, points $A$, $B$, and $C$ are collinear. If $\angle DBA=17.13^\circ$ and $\angle DCA=11.87^\circ$, and $DA=967.3$, find $BC$. Round your answer to the nearest integer and express your answer as that integer.
-\[
-\begin{tikzpicture}[scale=0.62,baseline=(current bounding box.center)]
-  \coordinate (A) at (0,0);
-  \coordinate (B) at (1.55,0);
-  \coordinate (C) at (4.35,0);
-  \coordinate (D) at (0,3.0);
-  \draw (D)--(A)--(C)--cycle;
-  \draw (D)--(B);
-  \node[left] at (A) {$A$};
-  \node[below] at (B) {$B$};
-  \node[right] at (C) {$C$};
-  \node[above] at (D) {$D$};
-\end{tikzpicture}
-\]
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2011_q05.png}
+\end{center}
 \(\text{Solution: }1464\)
 
 \item Let $\vec a$, $\vec b$, $\vec c$, and $\vec d$ represent vectors such that
@@ -157,33 +150,10 @@ $1(2)+2(3)+3(4)+\cdots+n(n+1)+\cdots$, the result is $528$. Find the value of $k
 
 \item In the diagram, $\overline{AC}$ and $\overline{EC}$ are common external tangents of the two circles, with points of tangency at $A$, $B$, $D$, and $E$. The circles are tangent at $F$ and have radii of lengths $3$ and $8$. Then
 $\sin\angle BCD=\dfrac{k\sqrt{w}}{f}$, where $k$, $w$, and $f$ are positive integers. Find the smallest possible value of $k+w+f$.
-\[
-\begin{tikzpicture}[scale=0.78,baseline=(current bounding box.center)]
-  \def\R{2.0}
-  \def\r{0.75}
-  \def\d{2.75}
-  \pgfmathsetmacro{\nx}{5/11}
-  \pgfmathsetmacro{\ny}{4*sqrt(6)/11}
-  \coordinate (O) at (0,0);
-  \coordinate (P) at (\d,0);
-  \coordinate (A) at ({\R*\nx},{\R*\ny});
-  \coordinate (B) at ({\d+\r*\nx},{\r*\ny});
-  \coordinate (E) at ({\R*\nx},{-\R*\ny});
-  \coordinate (D) at ({\d+\r*\nx},{-\r*\ny});
-  \coordinate (C) at ({\R*\d/(\R-\r)},0);
-  \coordinate (F) at (\R,0);
-  \draw (O) circle (\R);
-  \draw (P) circle (\r);
-  \draw (A)--(C);
-  \draw (E)--(C);
-  \node[above left] at (A) {$A$};
-  \node[above] at (B) {$B$};
-  \node[below] at (D) {$D$};
-  \node[below left] at (E) {$E$};
-  \node[right] at (C) {$C$};
-  \node[above] at (F) {$F$};
-\end{tikzpicture}
-\]
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2011_q09.png}
+\end{center}
 \(\text{Solution: }167\)
 
 \item Let $x$ represent the degree measure of an angle such that $\cot(x)=\sqrt{3}$. If $180^\circ<x<270^\circ$, find the value of $x$. \(\text{Solution: }210\)
@@ -252,7 +222,7 @@ find the value of \(a+2b+3c+4d\). \quad\textbf{Solution:} \(41\)
 
 \item Find the exact sum of \(\displaystyle\sum_{w=1}^{9}(-10)^{w-3}\). Express your answer as a decimal. \quad\textbf{Solution:} \(909090.91\)
 
-\item An apartment rental company has \(300\) apartments available, and \(190\) are presently rented at \(\$950\) per month. The company has decided that it will only raise or lower the rent per month on all apartments by integral increments of \(\$40\). A survey has shown that, so long as there are apartments available, for each \(\$40\) drop in rent per month for every apartment, there will be \(99\) new tenants. Find the number of dollars in the monthly rent that will maximize total income. \quad\textbf{Solution:} \(\$870\)
+\item An apartment rental company has \(3000\) apartments available, and \(1900\) are presently rented at \(\$950\) per month. The company has decided that it will only raise or lower the rent per month on all apartments by integral increments of \(\$40\). A survey has shown that, so long as there are apartments available, for each \(\$40\) drop in rent per month for every apartment, there will be \(99\) new tenants. Find the number of dollars in the monthly rent that will maximize total income. \quad\textbf{Solution:} \(\$870\)
 
 \item In a room with exactly \(6\) distinct persons, exactly \(12\) handshakes between \(2\) distinct persons are made. No two of these handshakes take place between the same \(2\) persons. Of the persons in the room, exactly two persons shook hands with exactly three other persons. Three distinct persons from these \(6\) persons are selected at random. Find the probability that these three distinct persons had all shaken hands with each other from among the \(12\) handshakes. Express your answer as a common fraction reduced to lowest terms. \quad\textbf{Solution:} \(\frac{1}{2}\)
 
@@ -266,7 +236,7 @@ x^9+2x^7=x^4-7x^3-6x^2-7x+9.
 \[
 x^5-\frac{121}{162}x^4+bx^3+cx^2+dx+e=0
 \]
-form a geometric progression. The sum of the reciprocals of the roots is \(242\). Find the absolute value of \(e\). Express your answer as a common fraction reduced to lowest terms. \quad\textbf{Solution:} \(\frac{1}{189568}\)
+form a geometric progression. The sum of the reciprocals of the roots is \(242\). Find the absolute value of \(e\). Express your answer as a common fraction reduced to lowest terms. \quad\textbf{Solution:} \(\frac{1}{1889568}\)
 
 \item An arithmetic progression has a first term of \(3\), and its last term is \(33\). The total population standard deviation \((\sigma_x)\) of the terms of this arithmetic progression is \(\sqrt{105}\). Find the sum of the terms of this arithmetic progression. \quad\textbf{Solution:} \(108\)
 
@@ -295,7 +265,7 @@ Should this pattern continue, then the next term would be
 \[
 k^3+w^3+p^3=1302^3.
 \]
-Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
+Find the value of \(k+w+p\). \quad\textbf{Solution:} \(1932\)
 \end{enumerate}
 
 \subsection*{State 2013 -- Precalculus}
@@ -333,10 +303,14 @@ Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
 \item A committee of 3 is selected from 2 juniors and 3 seniors. Find the probability that there are more seniors than juniors on the committee. Express your answer as a common fraction reduced to lowest terms. \textbf{Solution:} $\frac{7}{10}$.
 \item Let $i=\sqrt{-1}$. The vector from the origin representing $-8+6\sqrt3\,i$ in the complex plane is rotated $150^\circ$ clockwise about the origin. Find the exact complex number the vector now represents. Express your answer in the form $a+bi$ with exact coefficients $a$ and $b$. \textbf{Solution:} $7\sqrt3-5i$.
 \item Find the largest integer value of $x$ satisfying $\binom{2013}{1000}+\binom{2013}{1001}=\binom{2014}{x}$. \textbf{Solution:} $1013$.
-\item $\triangle AEU$ is equilateral, and $\triangle RTG$ has a right angle at $T$. The diagram places $R$ on $\overline{AE}$, $T$ on $\overline{AU}$, and $G$ on $\overline{EU}$. If $RA=1$, $AT=4$, and $UT=2$, find the exact length of $UG$. Express your answer as a common or improper fraction reduced to lowest terms. \textbf{Solution:} $\frac{14}{5}$.
+\item $\triangle AEU$ is equilateral, and $\triangle RTG$ has a right angle at $T$. The diagram places $R$ on $\overline{AE}$, $T$ on $\overline{AU}$, and $G$ on $\overline{EU}$. If $RA=1$, $AT=4$, and $UT=2$, find the exact length of $UG$. Express your answer as a common or improper fraction reduced to lowest terms. 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2014_q10.png}
+\end{center}
+\textbf{Solution:} $\frac{14}{5}$.
 \item In the expansion of $(x+y)^{12}$ written in decreasing degree for $x$, the second and third terms are equal when evaluated for $x=a$ and $y=b$, where $a$ and $b$ are positive and $a+b=1$. Find $b$. Express your answer as a common fraction reduced to lowest terms. \textbf{Solution:} $\frac{2}{13}$.
 \item Evaluate $\displaystyle\sum_{n=1}^{1000}\frac{1}{n^2+3n+2}$. Express your answer as a common fraction reduced to lowest terms. \textbf{Solution:} $\frac{250}{501}$.
-\item For all real numbers $x$, $f(x^2+1)+3f(22-5x)=x^2+2$. Find $f(17)$. \textbf{Solution:} $-\frac98$ (the key also permits $\frac98$ or $-1.125$).
+\item For all real numbers $x$, $f(x^2+1)+3f(22-5x)=x^2+2$. Find $f(17)$. \textbf{Solution:} $-\frac98$ (the key also prints $-\frac98$ or $-1.125$).
 \item Find the exact value of $x^2+2xy+y^2$ if $\frac{x}{3-5i}+\frac{y}{2+7i}=\frac{5+2i}{41+11i}$, where $x$ and $y$ are real numbers and $i=\sqrt{-1}$. \textbf{Solution:} $4$.
 \item From the set $\{9,15,15,16,18,20,21,22,23,31,32\}$, one number is selected at random. Find the probability that the number is within one (population) standard deviation from the arithmetic mean of the set. Express your answer as a common fraction reduced to lowest terms. \textbf{Solution:} $\frac{8}{11}$.
 \item $r$ and $s$ are the roots of $x^2+x+7=0$. Find the exact value of $2r^2+rs+2s^2+7$. \textbf{Solution:} $-12$.
@@ -366,8 +340,16 @@ Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
 \item Let $i=\sqrt{-1}$. If $a+bi=(2-i)^2+(1+i)^2$, determine the exact value of $|a+bi|$. \textbf{Solution:} $\sqrt{13}$.
 \item Determine the exact value of $\tan(\alpha+\beta+\gamma)$ when $\tan\alpha=\frac13$, $\tan\beta=\frac15$, and $\tan\gamma=\frac19$. Express your answer as a common or improper fraction reduced to lowest terms. \textbf{Solution:} $\frac{43}{59}$.
 \item Determine the value of $k$ when $\displaystyle\lim_{n\to\infty}\left(\sqrt{n^2+kn+5}-\sqrt{n^2+3n+7}\right)=4$. \textbf{Solution:} $11$.
-\item Quadrilateral $ABCD$ is a rhombus with sides of length $15$. Define $\operatorname{rat}(\theta)$ to be the length of the diagonal that bisects the angle $\theta$ divided by the length of the other diagonal. If $\operatorname{rat}(\angle ABD)=\frac43$, determine the degree measure of $\angle ACD$. Express your answer rounded to the nearest degree. \textbf{Solution:} $74^\circ$.
-\item Triangle $ABC$ is isosceles with $\overline{AB}\cong\overline{AC}$. $D$ lies on $\overline{AB}$ and $E$ lies on $\overline{AC}$. If $\angle CAB=24^\circ$, $\angle EBC=51^\circ$, and $\angle DCB=54^\circ$, determine the degree measure of $\angle EDC$. Report your answer as a decimal rounded to the nearest tenth of a degree. \textbf{Solution:} $45.3^\circ$.
+\item Quadrilateral $ABDC$ is a rhombus with sides of length $15$. Define $\operatorname{rat}(\theta)$ to be the length of the diagonal that bisects the angle $\theta$ divided by the length of the other diagonal. If $\operatorname{rat}(\angle ABD)=\frac43$, determine the degree measure of $\angle ACD$. Express your answer rounded to the nearest degree. 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2015_q19.png}
+\end{center}
+\textbf{Solution:} $74^\circ$.
+\item Triangle $ABC$ is isosceles with $\overline{AB}\cong\overline{AC}$. $D$ lies on $\overline{AB}$ and $E$ lies on $\overline{AC}$. If $\angle CAB=24^\circ$, $\angle EBC=51^\circ$, and $\angle DCB=54^\circ$, determine the degree measure of $\angle EDC$. Report your answer as a decimal rounded to the nearest tenth of a degree. 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2015_q20.png}
+\end{center}
+\textbf{Solution:} $45.3^\circ$.
 \end{enumerate}
 
 % Precalculus State packets: 2016--2018. Published answer-key responses are
@@ -394,7 +376,11 @@ Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
   \item \textbf{Problem.} The Fibonacci sequence is $\{f_n\}=\{1,1,2,3,5,8,13,21,34,\ldots\}$, where, for $n\geq2$, $f_{n+1}=f_{n-1}+f_n$. The related sequence of quotients is $\{r_n\}=\left\{\dfrac{f_{n+1}}{f_n}\right\}=\left\{\dfrac11,\dfrac21,\dfrac32,\dfrac53,\dfrac85,\dfrac{13}{8},\ldots\right\}$. Given that $\lim_{n\to\infty}r_n=L$, determine the absolute difference $|r_{10}-L|$. Express your answer as a decimal rounded to four significant digits.\quad \textbf{Solution:} $0.0001478$ or $0.00005646$.
   \item \textbf{Problem.} When the expansion of $(3x-2y)^7$ is completely simplified and written in decreasing degree of $x$, the numerical coefficient of the fifth term is $k$. Determine $k$.\quad \textbf{Solution:} $15{,}120$.
   \item \textbf{Problem.} In $\triangle ABC$, $\angle CAB=25^\circ$, $BC=4$, and $AC=6$. Determine the least possible length of side $\overline{AB}$. Express your answer as a decimal rounded to four significant digits.\quad \textbf{Solution:} $2.344$.
-  \item \textbf{Problem.} In the figure, $\angle OP_0P_1$ is a right angle, $OP_0=4$, and $P_0P_1=1$. Successive right triangles are constructed, with $\angle OP_1P_2=90^\circ$, $\angle OP_2P_3=90^\circ$, and so on through $\angle OP_{m-1}P_m=90^\circ$, and all indicated segments $P_{m-1}P_m$ have length $1$. If $P_m$ is the last point constructed before the next point $P_{m+1}$ lies in the first quadrant, find the length of segment $OP_m$. Report your answer as a decimal rounded to four significant figures.\quad \textbf{Solution:} $7.141$.
+  \item \textbf{Problem.} In the figure, $\angle OP_0P_1$ is a right angle, $OP_0=4$, and $P_0P_1=1$. Successive right triangles are constructed, with $\angle OP_1P_2=90^\circ$, $\angle OP_2P_3=90^\circ$, and so on through $\angle OP_{m-1}P_m=90^\circ$, and all indicated segments $P_{m-1}P_m$ have length $1$. If $P_m$ is the last point constructed before the next point $P_{m+1}$ lies in the first quadrant, find the length of segment $OP_m$. Report your answer as a decimal rounded to four significant figures.\quad 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2016_q20.png}
+\end{center}
+\textbf{Solution:} $7.141$.
 \end{enumerate}
 
 \subsection*{State 2017 -- Precalculus}
@@ -404,7 +390,11 @@ Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
   \item \textbf{Problem.} Let $\vec a$, $\vec b$, and $\vec c$ represent vectors such that $\vec a=(3,2)$, $\vec b=(-8,13)$, and $\vec c=(16,-24)$. Determine the sum of the two vectors that are perpendicular. Express your answer as the ordered pair representation of the sum of those two vectors.\quad \textbf{Solution:} $(19,-22)$.
   \item \textbf{Problem.} Let $f_0(x)=\dfrac1{1-x}$ and $f_n(x)=f_0\bigl(f_{n-1}(x)\bigr)$ for integers $n\geq1$. Determine $f_{2017}(2017)$. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.\quad \textbf{Solution:} $\dfrac{2016}{2017}$.
   \item \textbf{Problem.} Determine the sum of the series $\displaystyle\sum_{n=1}^{\infty}\frac1{3^n}$, if it exists. Report your answer as an integer or as a common or improper fraction reduced to lowest terms, or ``DNE'' if the sum does not exist.\quad \textbf{Solution:} $\frac12$.
-  \item \textbf{Problem.} Circle $O$ is inscribed in $\triangle ABC$ with $E$, $F$, and $G$ the respective points of tangency. $AB=8$, $BC=10$, and $CA=12$. Determine the radian measure of $\angle EOF$. Express your answer as a decimal rounded to the nearest thousandth.\quad \textbf{Solution:} $1.696$.
+  \item \textbf{Problem.} Circle $O$ is inscribed in $\triangle ABC$ with $E$, $F$, and $G$ the respective points of tangency. $AB=8$, $BC=10$, and $CA=12$. Determine the radian measure of $\angle EOF$. Express your answer as a decimal rounded to the nearest thousandth.\quad 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2017_q06.png}
+\end{center}
+\textbf{Solution:} $1.696$.
   \item \textbf{Problem.} Determine the remainder when $2^{2017}$ is divided by $1023$.\quad \textbf{Solution:} $128$ or $2^7$.
   \item \textbf{Problem.} $\operatorname{Arctan}(x)$ is expressed in radians and represents the inverse tangent function. Determine the smallest value in the range of $f(x)=8\operatorname{Arctan}(x^2+1)$.\quad \textbf{Solution:} $2\pi$.
   \item \textbf{Problem.} At a party of married couples, every man is married to a woman, every woman is married to a man, and all are present. Every man shakes hands with every other man and that man's wife. However, none of the wives shake each other's hands and no man shakes his own wife's hand. If 459 handshakes occur, determine how many people are at the party.\quad \textbf{Solution:} $36$ people.
@@ -415,7 +405,11 @@ Find the value of \(k+w+p\). \quad\textbf{Solution:} \(192\)
   \item \textbf{Problem.} A circular carnival Ferris wheel has a diameter of 20 meters with its lowest point at a ramp 5 meters off level ground. The Ferris wheel makes a complete revolution in 30 seconds. At time $t=0$, a point on the outside of the Ferris wheel is at its lowest height above ground. Determine, in meters, the height above ground of that point on the wheel at 17 seconds. Express your answer as a decimal rounded to the nearest thousandth.\quad \textbf{Solution:} $24.135$ meters.
   \item \textbf{Problem.} $5\sin(4x)+2\cos(4x)=a\sin(bx+c)$. Determine the exact value of the sum $a+b$.\quad \textbf{Solution:} $4+\sqrt{29}$.
   \item \textbf{Problem.} Let $n$ represent a positive integer such that $\dfrac{720}{n!}=6$. Determine $n$.\quad \textbf{Solution:} $5$.
-  \item \textbf{Problem.} $C$ and $D$ lie on $\overline{BE}$ such that $\overline{AC}$ and $\overline{AD}$ trisect $\angle BAE$ in $\triangle ABE$. $BC=2$, $CD=3$, and $DE=6$. Then the perimeter $P$ of $\triangle ABC$ may be expressed as $P=f+k\sqrt{w}+p\sqrt{q}$ in simplified and reduced radical form. Determine $f+k+w+p+q$. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.\quad \textbf{Solution:} $23$.
+  \item \textbf{Problem.} $C$ and $D$ lie on $\overline{BE}$ such that $\overline{AC}$ and $\overline{AD}$ trisect $\angle BAE$ in $\triangle ABE$. $BC=2$, $CD=3$, and $DE=6$. Then the perimeter $P$ of $\triangle ABC$ may be expressed as $P=f+k\sqrt{w}+p\sqrt{q}$ in simplified and reduced radical form. Determine $f+k+w+p+q$. Express your answer as an integer or as a common or improper fraction reduced to lowest terms.\quad 
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2017_q17.png}
+\end{center}
+\textbf{Solution:} $23$.
   \item \textbf{Problem.} Determine the length of the polar curve $r=\dfrac4{\sin\theta+\cos\theta}$ when $0\leq\theta\leq\dfrac\pi2$.\quad \textbf{Solution:} $4\sqrt2$.
   \item \textbf{Problem.} The equations of two planes in 3-space are $2x-4y+2z=-8$ and $x+y-z=0$. A parametric representation of the line of intersection is $x(t)=-2+t$, $y(t)=at$, and $z(t)=b+ct$ for all real values of $t$. Determine $a+b+c$.\quad \textbf{Solution:} $3$.
   \item \textbf{Problem.} Your Math Team Coach probably often says, ``There is no $i$ in `team.' '' Since Coach is also a math teacher, Coach might say, ``There is no $e^{ki\pi}$ in `team.' '' (To a math teacher, $i=\sqrt{-1}$.) Given Euler's formula $e^{i\theta}=\cos\theta+i\sin\theta$, determine the smallest positive value of $12k-100$.\quad \textbf{Solution:} $2$.
@@ -501,7 +495,7 @@ z=-2t
 \]
 Determine the value of the product $(a+b)(k+w)$. \textbf{Solution:} $\boxed{50}$
 
-\item A three-term sequence $\{a_n\}$ is defined by the relation: $a_n$ is the solution for $x$ to the equation $e^{\log x}=e^n$, $n=1,2,3$. A three-term sequence $\{b_n\}$ is defined by the relation: $b_n$ is the solution for $y$ to the equation $10^{\ln y}=10^n$, $n=1,2,3$. Let the points $P_n$ be $(a_n,b_n)_{n=1,2,3}$. The exact area of triangle $P_1P_2P_3$ is a polynomial in $e$. Determine the exact sum of the numerical coefficients in this polynomial. \textbf{Solution:} $\boxed{0\text{ (zero)}}$
+\item A three-term sequence $\{a_n\}$ is defined by the relation: $a_n$ is the solution for $x$ to the equation $e^{\log x}=e^n$, $n=1,2,3$. A three-term sequence $\{b_n\}$ is defined by the relation: $b_n$ is the solution for $y$ to the equation $10^{\ln y}=10^{4-n}$, $n=1,2,3$. Let the points $P_n$ be $(a_n,b_n)_{n=1,2,3}$. The exact area of triangle $P_1P_2P_3$ is a polynomial in $e$. Determine the exact sum of the numerical coefficients in this polynomial. \textbf{Solution:} $\boxed{0\text{ (zero)}}$
 
 \item The double-helix model of a DNA molecule is mathematically quite complicated. A simplified version is represented by the two sets of parametric equations
 \[
@@ -537,7 +531,11 @@ For each value of $t$, the segment joining the corresponding points on the two h
 \item Determine $x$ when $2\arctan\left(\dfrac15\right)+\arctan x=\dfrac{\pi}{4}$.\par\textbf{Solution:} $\dfrac{7}{17}$.
 \item The roots of $3y^3+2y^2+y-1=0$ are $a,b,c$. The polynomial $kx^3+wx^2+px+q=0$, for relatively prime integers $k,w,p,q$ with $k>0$, has roots $a+2,b+2,c+2$. Determine $k+w+p+q$.\par\textbf{Solution:} $-3$.
 \item Thirteen unit circles have centers equally spaced on a circle of radius $r$, with each unit circle externally tangent to exactly two others. Determine $r$, rounded to the nearest thousandth.\par\textbf{Solution:} $4.179$.
-\item In radian mode, the polar equation $r=2\sin(3\theta)$, $0\le\theta\le\pi$, produces the three-leaved rose designated ALABAMA. Its curve is traced from $A$ through $L,A,B,A,M$ and back to $A$ in that order; $L,B,M$ are vertices of an equilateral triangle. The total area inside the rose is $\pi$. A second curve, designated ALASKA, consists of the upper-right leaf of the rose and a triangle. It starts at $A$, traces that leaf through $L$ and returns to $A$, then follows tangent segments $AS$ and $AK$ through $S$ and $K$, where $AS=AK$, back to $A$. When the areas enclosed by the ALABAMA and ALASKA curves are equal, the distance $SK=2^k3^w\pi^p$. Determine $(k,w,p)$.\par\textbf{Solution:} The published key accepts $\left(\dfrac32,-\dfrac34,\dfrac12\right)$ or $\left(\dfrac32,\dfrac34,\dfrac12\right)$.
+\item In radian mode, the polar equation $r=2\sin(3\theta)$, $0\le\theta\le\pi$, produces the three-leaved rose designated ALABAMA. Its curve is traced from $A$ through $L,A,B,A,M$ and back to $A$ in that order; $L,B,M$ are vertices of an equilateral triangle. The total area inside the rose is $\pi$. A second curve, designated ALASKA, consists of the upper-right leaf of the rose and a triangle. It starts at $A$, traces that leaf through $L$ and returns to $A$, then follows tangent segments $AS$ and $AK$ through $S$ and $K$, where $AS=AK$, back to $A$. When the areas enclosed by the ALABAMA and ALASKA curves are equal, the distance $SK=2^k3^w\pi^p$. Determine $(k,w,p)$.\par
+\begin{center}
+\includegraphics[width=0.5\linewidth]{diagrams/state_2022_q19.png}
+\end{center}
+\textbf{Solution:} The published key accepts $\left(\dfrac32,-\dfrac34,\dfrac12\right)$ or $\left(\dfrac32,\dfrac34,\dfrac12\right)$.
 \item A particle follows the parametric path $x(t)=20(t-1)$ and $y(t)=-t^2+22t+23$, where $x(t)$ and $y(t)$ are horizontal and vertical positions. Starting at $t=0$, it moves until it reaches maximum height. Determine the horizontal distance traveled.\par\textbf{Solution:} $220$ units.
 \end{enumerate}
 \end{document}
