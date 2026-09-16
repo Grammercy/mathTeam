@@ -46,6 +46,11 @@
     .replace(/\\begin\{(?:enumerate|center)\}|\\end\{(?:enumerate|center)\}/g, '')
     .replace(/\\\\\s*$/g, '')
     .replace(/\n\s*/g, '<br>');
+  const answerDisplay = value => {
+    const clean = value.trim();
+    if (!/[\\^_]/.test(clean) || /[$]|\\\(|\\\[/.test(clean)) return cleanDisplay(clean);
+    return `$${cleanDisplay(clean)}$`;
+  };
 
   function render() {
     const item = deck[index];
@@ -80,7 +85,7 @@
     result.className = `result${correct ? '' : ' wrong'}`;
     result.innerHTML = correct
       ? 'Correct.'
-      : `Answer: <span class="answer">${cleanDisplay(item.answer)}</span>`;
+      : `Answer: <span class="answer">${answerDisplay(item.answer)}</span>`;
     result.hidden = false;
     next.hidden = false;
     if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([result]);
