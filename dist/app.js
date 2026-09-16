@@ -60,12 +60,8 @@
     return `$${cleanDisplay(clean)}$`;
   };
   function renderFormulaList() {
-    const notes = window.FORMULA_NOTES || {};
-    formulaList.innerHTML = Object.keys(notes).sort((a, b) => Number(a) - Number(b)).map(key => {
-      const item = allProblems[Number(key) - 1];
-      const label = item ? `${item.source} ${item.year} · Problem ${item.number}` : `Problem ${key}`;
-      return `<article class="formula-row"><span class="formula-label">${label}</span><span class="formula-text">${cleanDisplay(notes[key].formula)}</span></article>`;
-    }).join('');
+    const groups = window.FORMULA_REFERENCE || [];
+    formulaList.innerHTML = groups.map(group => `<section class="formula-group"><h2>${group.group}</h2>${group.items.map(([name, formula]) => `<article class="formula-row"><span class="formula-label">${name}</span><span class="formula-text">${cleanDisplay(formula)}</span></article>`).join('')}</section>`).join('');
     if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([formulaList]);
   }
   tabs.forEach(tab => tab.addEventListener('click', () => {
