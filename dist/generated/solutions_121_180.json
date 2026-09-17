@@ -1,0 +1,303 @@
+[
+  {
+    "index": 121,
+    "solution": "The range is \\{1,2,3,k\\}. Since its distinct values have product 60, \\(1\\cdot2\\cdot3\\cdot k=60\\), so \\(k=10\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 122,
+    "solution": "\\((3i)(ki)(wi)=3kw i^3=-3kw i\\). Thus \\(-3kw i=-12i\\), so \\(kw=4\\). With positive integers \\(k<w\\), \\((k,w)=(1,4)\\), hence \\(k=1\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 123,
+    "solution": "Perpendicular vectors have zero dot product: \\(5.1(-6.5)+3.4k=0\\). Therefore \\(3.4k=33.15\\), so \\(k=33.15/3.4=9.75\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 124,
+    "solution": "The common ratio is \\(r=k^2/k=k\\). Since the series converges, \\(0<k<1\\), and \\(\\frac{k}{1-k}=\\frac{2k}{k+1}\\). Dividing by \\(k\\) gives \\(\\frac1{1-k}=\\frac2{k+1}\\), so \\(k+1=2-2k\\) and \\(k=\\frac13\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 125,
+    "solution": "\\(5x^2-10x+9y^2-72y+104=0\\) becomes \\(5(x-1)^2+9(y-4)^2=45\\). Thus \\(\\frac{(x-1)^2}{9}+\\frac{(y-4)^2}{5}=1\\), so the minor semiaxis is \\(\\sqrt5\\) and the minor axis is \\(2\\sqrt5\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 126,
+    "solution": "Since \\(x=74-14i\\), the right side is \\(x+7i=74-7i\\). Expanding gives \\((k+wi)(9-2i)=(9k+2w)+(9w-2k)i\\). Hence \\(9k+2w=74\\) and \\(9w-2k=-7\\). Solving gives \\(w=1\\), \\(k=8\\), so \\(k+w=9\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 127,
+    "solution": "A complete Bob-Christie-Judy round has probability \\((1/2)^3=1/8\\) of producing no odd roll. Christie wins in a round with probability \\((1/2)(1/2)=1/4\\). Therefore \\(P=\\frac{1/4}{1-1/8}=\\frac27\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 128,
+    "solution": "The logarithm requires \\(x>2\\), the denominator requires \\(x\\ne2\\sqrt{10}\\), and the radical requires \\(x\\le8\\sqrt3\\). Thus the domain is \\((2,2\\sqrt{10})\\cup(2\\sqrt{10},8\\sqrt3]\\). Therefore \\(3k+2a+b+c+d+7g+h=3(2)+2(2)+10+2+10+7(8)+3=91\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 129,
+    "solution": "The large triangle has \\(FE=15\\), \\(FD=34\\), and \\(ED=35\\), so Heron's formula gives \\(K_{FED}=\\sqrt{42\\cdot27\\cdot8\\cdot7}=252\\). Set \\(F=(0,0)\\), \\(D=(34,0)\\). From \\(FE=15\\), \\(ED=35\\), \\(E=(\\frac{39}{17},\\frac{252}{17})\\). Since \\(FA/FE=1/3\\), \\(A=(\\frac{13}{17},\\frac{84}{17})\\); since \\(DC/DE=16/35\\), \\(C=E+\\frac{19}{35}(D-E)=(\\frac{11606}{595},\\frac{4032}{595})\\); and \\(B=(12,0)\\). Thus \\(K_{ABC}=\\frac12\\left|\\det(B-A,C-A)\\right|=\\frac{4812}{85}\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 130,
+    "solution": "The terms have degrees \\(4\\), \\(2(2+3)=10\\), and \\(1\\). The degree-10 term has nonzero coefficient, so the polynomial degree is \\(10\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 131,
+    "solution": "Each game is an unordered pair of teams. The number of pairs is \\(\\binom{12}{2}=66\\), and each pair plays 10 times. Thus \\(66\\cdot10=660\\) games are played.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 132,
+    "solution": "\\(\\log_9x=\\frac12\\log_3x=\\log_3y\\), so \\(x=y^2\\). Substitution gives \\(y^4-5y^2=-6\\), or \\((y^2-2)(y^2-3)=0\\). The positive values are \\(y=\\sqrt2,\\sqrt3\\), whose sum is \\(\\sqrt2+\\sqrt3\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 133,
+    "solution": "The common difference is \\(d=\\frac{-28-8}{12}=-3\\). The sum of all 13 terms is \\(\\frac{13(8-28)}2=-130\\). Subtracting the endpoints gives \\(-130-[8+(-28)]=-110\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 134,
+    "solution": "For triangle sides \\(a=BC=40\\), \\(b=AC\\), and \\(c=AB=50\\), the half-angle identity gives \\(\\frac{\\sin((A-B)/2)}{\\cos(C/2)}=\\frac{a-b}{c}\\). Hence \\(\\frac{40-b}{50}=\\frac{12}{25}\\), so \\(40-b=24\\) and \\(b=AC=16\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 135,
+    "solution": "The right side is \\(4+6(-1)+3i=-2+3i\\), and the left side is \\(7+k(-i)+x=7-ki+x\\). With \\(x=-9-7i\\), this becomes \\(-2-(k+7)i\\). Thus \\(-(k+7)=3\\), so \\(k=-10\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 136,
+    "solution": "Let the additive-inverse roots be \\(r,-r\\), with third root \\(-n\\) from the root sum. Their pairwise sum gives \\(-r^2=-(n+1)\\), so \\(r^2=n+1\\). Their product is \\(nr^2=n(n+1)=-k\\), so \\(k=-n(n+1)\\). For \\(n=1,2,3,4,5\\), the sum is \\(-(2+6+12+20+30)=-70\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 137,
+    "solution": "All shelf arrangements number \\(\\frac{7!}{3!2!2!}=210\\). Treating the three math books as one block gives \\(\\frac{5!}{2!2!}=30\\) favorable arrangements. Therefore \\(P=30/210=\\frac17\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 138,
+    "solution": "Since \\(A\\) is in quadrant III, \\(\\cos A=-\\sqrt{1-(-2/3)^2}=-\\frac{\\sqrt5}{3}\\). Then \\(\\sin(2A)=2\\sin A\\cos A=\\frac{4\\sqrt5}{9}\\), so \\(k+w+p=4+5+9=18\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 139,
+    "solution": "\\((x-1-2i)(x-1+2i)=(x-1)^2+4=x^2-2x+5\\). Multiplying by \\(x-5\\) gives \\(x^3-7x^2+15x-25\\). Thus \\(k+p=-7-25=-32\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 140,
+    "solution": "Using \\(a^2=b^2+c^2-bc\\) for \\(\\angle A=60^\\circ\\), the condition becomes \\(b(2a+2b-c)=\\frac{49}{19}ab\\), so \\(19(2b-c)=11a\\). Hence \\(a=19t\\) and \\(c=2b-11t\\). Substitution into the cosine-law equation gives \\((b-16t)(b+5t)=0\\), so \\(b=16t\\), \\(c=21t\\). The smallest positive integer choice is \\(t=1\\), giving \\(c=21\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 141,
+    "solution": "By continuity, \\(\\displaystyle\\lim_{x\\to5}2^{9-x}=2^{9-5}=16\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 142,
+    "solution": "Work backward: \\(a_9=(a_{10}+5)/3=(16+5)/3=7\\), then \\(a_8=(a_9+5)/3=(7+5)/3=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 143,
+    "solution": "\\(3\\vec a+5\\vec b=3(3,2)+5(-8,13)=(9,6)+(-40,65)=(-31,71)\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 144,
+    "solution": "\\(\\sum_{k=2}^{5}k^3=2^3+3^3+4^3+5^3=224\\), and the constant contributes \\(4(3.782)=15.128\\). Therefore the sum is \\(224+15.128=239.128\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 145,
+    "solution": "The common ratio is \\(r=\\frac{512/15}{1024/5}=\\frac16\\). Thus \\(a_{10}=\\frac{1024}{5}(\\frac16)^9=\\frac{2}{98415}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 146,
+    "solution": "For \\(f^{-1}\\) to fail to be a function, the new output \\(w\\) must duplicate an existing output. Thus \\(w\\in\\{7,3,11\\}\\), and the requested product is \\(7\\cdot3\\cdot11=231\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 147,
+    "solution": "Let the consecutive positive roots be \\(m,m+1\\). The third root is \\(16-2m\\). Vieta gives \\(k=m(m+1)+(16-2m)(2m+1)=-3m^2+31m+16\\) and \\(w=-m(m+1)(16-2m)=-2m(m+1)(8-m)\\). The condition \\(k>0\\) gives \\(m=1,\\ldots,10\\); evaluating \\(|k-w|\\) is largest at \\(m=10\\), where \\(k=26\\) and \\(w=440\\). Therefore \\(k=26\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 148,
+    "solution": "The vertical distance is the side opposite the 35-degree angle: \\(1000\\sin35^\\circ=573.576\\ldots\\). Rounded to the nearest tenth, it is \\(573.6\\) feet.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 149,
+    "solution": "By the law of cosines, \\(w^2=12^2+(k\\sqrt3)^2-2(12)(k\\sqrt3)\\cos30^\\circ=3(k-6)^2+36\\). With \\(w<164\\), checking the bounded integer values of \\(k-6\\) gives \\(w\\in\\{6,12,42,156\\}\\). Their sum is \\(6+12+42+156=216\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 150,
+    "solution": "Determinants multiply: \\(\\det(A)=\\det\\begin{bmatrix}2&3\\\\1&-3\\end{bmatrix}\\det\\begin{bmatrix}5&4\\\\1&7\\end{bmatrix}=(-9)(31)=-279\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 151,
+    "solution": "The sum of all numerical coefficients equals the value at \\(x=y=z=a=1\\): \\((3-4+1+2)^2=2^2=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 152,
+    "solution": "The sign intervals give \\(x\\in\\{25,\\ldots,54\\}\\cup\\{85,\\ldots,114\\}\\cup\\{145,\\ldots,149\\}\\) from tangent, \\(x\\in\\{3,\\ldots,38\\}\\cup\\{75,\\ldots,110\\}\\cup\\{147,\\ldots,149\\}\\) from sine, and \\(44\\le x\\le133\\) from cosine. Their intersection is \\(85\\le x\\le110\\). Hence \\(\\sum x=\\frac{(85+110)26}{2}=2535\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 153,
+    "solution": "The ellipse area is \\(\\pi(6)\\sqrt{k}=6\\pi\\sqrt{k}\\). The circle area is \\(\\pi(2)^2=4\\pi\\), so \\(6\\pi\\sqrt{k}=18(4\\pi)=72\\pi\\). Thus \\(\\sqrt{k}=12\\), and \\(k=144\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 154,
+    "solution": "Let \\(u=AE/EF\\). For the three equally placed points in the equilateral triangle, \\(\\frac{[ABC]}{[DEF]}=1-3u+3u^2\\). Therefore \\(1-3u+3u^2=\\frac{53}{128}\\), so \\(128u^2-128u+25=0\\) and \\(u=\\frac12\\pm\\frac{\\sqrt{14}}{16}\\). Since \\(AE<AF\\), choose \\(u=\\frac12-\\frac{\\sqrt{14}}{16}\\). Hence \\(AF=256(1-u)=128+16\\sqrt{14}=187.865\\ldots\\), or \\(187.9\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 155,
+    "solution": "In quadrant II, \\(\\cos A=-\\sqrt{1-(2/5)^2}=-\\frac{\\sqrt{21}}5\\). Thus \\(\\sin(2A)=2(\\frac25)(-\\frac{\\sqrt{21}}5)=-\\frac{4\\sqrt{21}}{25}\\), and \\(k+w+p=-4+21+25=42\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 156,
+    "solution": "Favorable committees number \\(\\binom82\\binom71+\\binom81\\binom72=196+168=364\\). Since there are \\(\\binom{15}3=455\\) committees, \\(P=364/455=\\frac45\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 157,
+    "solution": "From \\(\\sin x=5/13\\), \\(\\tan x=\\pm5/12\\); from \\(\\cot y=-3/4\\), \\(\\tan y=-4/3\\). Thus \\(\\tan(x-y)=\\frac{\\tan x+4/3}{1-(4/3)\\tan x}\\), giving \\(63/16\\) and \\(33/56\\). Their sum is \\(\\frac{63}{16}+\\frac{33}{56}=\\frac{507}{112}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 158,
+    "solution": "Because \\(\\binom n6\\) increases with \\(n\\), compute \\(\\binom96=84\\), \\(\\binom{10}6=210\\), \\(\\binom{11}6=462\\), \\(\\binom{12}6=924\\), \\(\\binom{13}6=1716\\), and \\(\\binom{14}6=3003\\). The valid values are \\(n=10,11,12,13\\), whose sum is \\(46\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 159,
+    "solution": "Polynomial division gives \\(\\frac{x^2-5x+6}{x-4}=x-1+\\frac2{x-4}\\). The slant asymptote is \\(y=x-1\\), so \\(m+b=1-1=0\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 160,
+    "solution": "For an odd endpoint \\(t\\), the sum of odd integers through \\(t\\) is \\(((t+1)/2)^2\\). Let \\(x=2r-1\\), \\(n=2s-1\\); then \\(S_n-S_{x-2}=S_x+99\\) becomes \\(s^2-(r-1)^2=r^2+99\\), or \\(s^2=2r^2-2r+100\\). Checking the two-digit bounds gives \\((x,n)=(37,55),(43,63)\\). Therefore the largest possible \\(x\\) is \\(43\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 161,
+    "solution": "The possible whole-number heights are \\(6\\) and \\(7\\). The area condition is \\(8h>50\\), or \\(h>6.25\\), so only \\(h=7\\) works. Thus the probability is \\(1/2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 162,
+    "solution": "\\(f(x)=|3x-12|=3|x-4|\\), whose vertex and vertical symmetry line are at \\(x=4\\). Hence \\(k=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 163,
+    "solution": "\\(\\cos\\theta=0\\) when \\(\\theta=90^\\circ+180^\\circ n\\). Thus \\(2x-60=90+180n\\), so \\(x=75+90n\\). The smallest positive value is \\(75^\\circ\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 164,
+    "solution": "The polynomial is \\((x-1)(x-5)(x-11)=(x^2-6x+5)(x-11)=x^3-17x^2+71x-55\\). Therefore \\(k+w+p=-17+71-55=-1\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 165,
+    "solution": "For common ratio \\(r\\), \\(405r^4=20480\\), so \\(r^4=\\frac{20480}{405}=\\left(\\frac83\\right)^4\\). Hence \\(r^2=\\frac{64}{9}\\), and the third term is \\(405r^2=405(\\frac{64}{9})=2880\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 166,
+    "solution": "The radius is \\(r=\\sqrt{(2+6)^2+(-12-3)^2}=\\sqrt{8^2+(-15)^2}=17\\). Since \\(35^\\circ15'=35.25^\\circ\\), the sector area is \\(\\frac{35.25}{360}\\pi(17)^2=88.9\\ldots\\), which rounds to \\(88.9\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 167,
+    "solution": "Complete the square: \\(2x^2+24x-1=2(x+6)^2-73\\). The vertical shift is 73 units downward, so \\(|k|=73\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 168,
+    "solution": "Set \\(y=0\\) to get \\(g(0)=-8\\). Setting \\(y=1\\) and using \\(g(1)=22\\) gives \\(g(x+1)-g(x)=30-2x\\). Thus on the integer chain, \\(g(x)=-x^2+31x-8\\). Therefore \\(g(-11)=-121-341-8=-470\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 169,
+    "solution": "By the remainder theorem, \\(k=3^2+3m+14=23+3m\\) and \\(w=7^2+7m+14=63+7m\\). Substituting into \\(w=2k+1\\) gives \\(63+7m=2(23+3m)+1\\), so \\(m=-16\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 170,
+    "solution": "Let the other side adjacent to the smallest angle be \\(b\\), and let the opposite side be \\(a\\). Then \\(\\frac{36+b^2-a^2}{12b}=\\frac{19}{21}\\), so \\((7b-38)^2-(7a)^2=-320\\). The smallest positive integer triangle from the factor pairs is \\((a,6,b)=(3,6,7)\\), which has perimeter \\(3+6+7=16\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 171,
+    "solution": "Use the complement: the probability that neither \\(A\\) nor \\(B\\) is chosen is \\(\\frac{\\binom42}{\\binom62}=\\frac6{15}\\). Hence \\(P=1-\\frac6{15}=\\frac35\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 172,
+    "solution": "Combine logarithms: \\(\\ln\\left(\\frac{5+4y}{3+y}\\right)=\\ln3\\). Therefore \\(\\frac{5+4y}{3+y}=3\\), so \\(5+4y=9+3y\\) and \\(y=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 173,
+    "solution": "Let the circle radii at \\(A,B,C\\) be \\(r_A,r_B,r_C\\). Tangency gives \\(r_A+r_B=64\\), \\(r_B+r_C=64\\), \\(r_A+r_C=48\\), so \\((r_A,r_B,r_C)=(24,40,24)\\). In the center triangle, \\(\\cos B=\\frac{64^2+64^2-48^2}{2(64)(64)}=\\frac{23}{32}\\), so \\(\\sin(B/2)=\\frac38\\), and \\(A=C=(180^\\circ-B)/2\\). Thus \\(P=2(24)\\sin(A/2)+2(40)\\sin(B/2)+2(24)\\sin(C/2)=83.665\\ldots\\), which rounds to \\(84\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 174,
+    "solution": "Let \\(C\\) and \\(O\\) be the numbers inside and outside Chicago. The weighted mean equation is \\(48600C+43800O=45000(C+O)\\). Thus \\(3600C=1200O\\), so \\(O=3C\\), and \\(\\frac{O}{C+O}=\\frac34\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 175,
+    "solution": "If \\(w\\) is each width and \\(L\\) is the river-parallel length, the fence equation is \\(L+4w=2200\\), so \\(A=wL=w(2200-4w)\\). The quadratic is maximized at \\(w=\\frac{2200}{8}=275\\), giving \\(L=2200-4(275)=1100\\) feet.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 176,
+    "solution": "The geometric-progression condition is \\((x+1)^2=(x-2)(4x-8)=4(x-2)^2\\). Hence \\(x+1=\\pm2(x-2)\\), giving \\(x=5\\) or \\(x=1\\). Their absolute difference is \\(|5-1|=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 177,
+    "solution": "For an ellipse centered at the origin, eccentricity \\(e=2/3\\) fixes only \\(c/a=2/3\\). The scale \\(a\\) and the orientation can vary, so more than one ellipse satisfies the conditions. The classification is C.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 178,
+    "solution": "The solutions of \\(\\sin(3x^\\circ)=1/2\\) satisfy \\(3x=30+360n\\) or \\(3x=150+360n\\). Since \\(399^\\circ<3x<534^\\circ\\), the valid value is \\(3x=510^\\circ\\), so \\(x=170^\\circ\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 179,
+    "solution": "For a hyperbola, the latus rectum is \\(\\ell=2a(e^2-1)\\). Thus \\(a=\\frac{24.12}{2(3.62^2-1)}=0.9963\\ldots\\), and \\(c=ea=3.6067\\ldots\\). With a vertical principal axis, the larger focus has \\(y=19.02+c=22.6267\\ldots\\), so the answer is \\(22.63\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 180,
+    "solution": "Let \\(P=(5,0,4)\\), \\(Q=(1,7,3)\\), and \\(R=(2,8,0)\\). A normal is \\((Q-P)\\times(R-P)=(-20,-13,-11)\\). For \\(X=(1,4,9)\\), the distance is \\(\\frac{|(-20,-13,-11)\\cdot(X-P)|}{\\sqrt{20^2+13^2+11^2}}=\\frac{27}{\\sqrt{690}}=1.02787\\ldots\\), which rounds to \\(1.028\\).",
+    "diagramNeeded": false
+  }
+]
+
