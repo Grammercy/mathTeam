@@ -8,6 +8,8 @@
   const form = document.querySelector('#answer-form');
   const input = document.querySelector('#answer');
   const result = document.querySelector('#result');
+  const explain = document.querySelector('#explain');
+  const solution = document.querySelector('#solution');
   const formula = document.querySelector('#formula');
   const next = document.querySelector('#next');
   const practiceView = document.querySelector('.practice');
@@ -17,6 +19,7 @@
   let deck = [];
   let index = 0;
   let checked = false;
+  let solutions = {};
 
   const shuffle = values => values.map(value => ({ value, sort: Math.random() })).sort((a, b) => a.sort - b.sort).map(({ value }) => value);
   const strip = value => value
@@ -85,6 +88,10 @@
     input.focus();
     result.hidden = true;
     formula.hidden = true;
+    solution.hidden = true;
+    explain.hidden = true;
+    explain.setAttribute('aria-expanded', 'false');
+    explain.textContent = 'Show explanation';
     next.hidden = true;
     if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([question, result]);
   }
@@ -113,11 +120,29 @@
       formula.innerHTML = `Useful: ${cleanDisplay(note.formula)}`;
       formula.hidden = false;
     }
+    const worked = solutions[String(item._index ?? allProblems.indexOf(item) + 1)];
+    if (worked?.solution) {
+      solution.innerHTML = `<div class="solution-title">Solution</div><div class="solution-body">${cleanDisplay(worked.solution)}</div>${worked.solutionDiagram ? `<div class="solution-diagram">${worked.solutionDiagram}</div>` : ''}`;
+      explain.hidden = false;
+    }
     next.hidden = false;
-    if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([result, formula]);
+    if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([result, formula, solution]);
+  });
+  explain.addEventListener('click', () => {
+    const open = !solution.hidden;
+    solution.hidden = open;
+    explain.setAttribute('aria-expanded', String(!open));
+    explain.textContent = open ? 'Show explanation' : 'Hide explanation';
+    if (!open && window.MathJax?.typesetPromise) window.MathJax.typesetPromise([solution]);
   });
   next.addEventListener('click', () => { index = (index + 1) % deck.length; render(); });
   sourceSelect.addEventListener('change', loadDeck);
   document.addEventListener('keydown', event => { if (event.key === 'Enter' && checked && !next.hidden) next.click(); });
-  loadDeck();
+  (window.SOLUTIONS_READY || Promise.resolve({})).then(loaded => {
+    solutions = loaded;
+    loadDeck();
+  }).catch(error => {
+    console.error(error);
+    loadDeck();
+  });
 })();
