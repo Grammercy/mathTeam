@@ -44,7 +44,14 @@
     const x = numeric(given), y = numeric(expected);
     return x !== null && y !== null && Math.abs(x - y) < 1e-8;
   };
-  const cleanDisplay = value => value
+  const cleanDisplay = value => String(value ?? '')
+    // Repair legacy JSON escapes before sanitizing. Literal "\\n" markers are
+    // line breaks only at text boundaries; LaTeX commands such as \\neq and
+    // \\notin must remain intact.
+    .replace(/\u000crac/g, '\\frac')
+    .replace(/\u000dight/g, '\\right')
+    .replace(/\\n(?=(?:[A-Z]|\\(?:\[|\(|\$)|\s|$))/g, '\n')
+    .replace(/([.!?,;:)\]}])\\n(?=[a-z])/g, '$1\n')
     .replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/\\\$/g, '$')
     .replace(/\\(?:textbf|textit)\{([^{}]*)\}/g, '$1')
@@ -56,6 +63,13 @@
     .replace(/\\begin\{(?:enumerate|center)\}|\\end\{(?:enumerate|center)\}/g, '')
     .replace(/\\\\\s*$/g, '')
     .replace(/\n\s*/g, '<br>');
+  const renderBareLogarithms = value => value.replace(
+    /(^|[^\\])\blog_([A-Za-z0-9]+)(\s*(?:\((?:[^()]|\([^()]*\))*\)|[A-Za-z0-9]))/g,
+    (_, prefix, base, argument) => `${prefix}\\(\\log_{${base}}${argument}\\)`
+  ).replace(
+    /\\log_([A-Za-z0-9]+)(\s*(?:\((?:[^()]|\([^()]*\))*\)|[A-Za-z0-9]))/g,
+    (_, base, argument) => `\\(\\log_{${base}}${argument}\\)`
+  );
   const answerDisplay = value => {
     const clean = value.trim();
     if (/\\\$/.test(clean)) return cleanDisplay(clean).replace(/\$/g, '&#36;');
@@ -117,7 +131,7 @@
     result.hidden = false;
     const note = window.FORMULA_NOTES?.[String(item._index ?? allProblems.indexOf(item) + 1)];
     if (note?.formula) {
-      formula.innerHTML = `Useful: ${cleanDisplay(note.formula)}`;
+      formula.innerHTML = `Useful: ${renderBareLogarithms(cleanDisplay(note.formula))}`;
       formula.hidden = false;
     }
     const worked = solutions[String(item._index ?? allProblems.indexOf(item) + 1)];
