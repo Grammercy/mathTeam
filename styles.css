@@ -62,8 +62,15 @@ button:hover { filter: brightness(1.08); transform: translateY(-1px); }
 .result { margin-top: 19px; padding: 14px 16px; border-left: 3px solid var(--green); background: color-mix(in srgb, var(--green) 8%, transparent); color: var(--green); font: 500 .88rem "DM Mono", monospace; line-height: 1.5; }
 .result.wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 8%, transparent); color: var(--red); }
 .result .answer { color: var(--text); }
+.explain { display: block; margin-top: 14px; padding: 7px 0; background: transparent; color: var(--mauve); font: 500 .82rem "DM Mono", monospace; }
+.explain[hidden] { display: none; }
 .formula { margin-top: 12px; padding: 10px 12px; border-left: 2px solid var(--mauve); color: var(--subtext-1); font-size: .9rem; line-height: 1.5; }
 .formula mjx-container { color: var(--text); }
+.solution { margin-top: 18px; padding: 17px 18px; border: 1px solid color-mix(in srgb, var(--blue) 22%, transparent); border-radius: 8px; background: color-mix(in srgb, var(--blue) 5%, transparent); color: var(--text); line-height: 1.65; }
+.solution-title { color: var(--blue); font: 500 .72rem "DM Mono", monospace; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
+.solution-body { white-space: normal; }
+.solution-diagram { margin-top: 14px; }
+.solution-diagram svg { display: block; max-width: 100%; height: auto; }
 .next { display: block; margin-top: 18px; background: transparent; color: var(--blue); padding: 5px 0; font-size: .88rem; }
 .next[hidden] { display: none; }
 .next span { color: var(--subtext-0); font: .8rem "DM Mono", monospace; margin-left: 5px; }

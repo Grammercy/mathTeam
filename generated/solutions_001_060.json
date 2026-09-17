@@ -1,0 +1,302 @@
+[
+  {
+    "index": 1,
+    "solution": "$k=\\arcsin(0.6)\\cdot\\frac{180}{\\pi}=36.8699^\\circ$ and $w=\\arcsin(0.6)=0.643501$ radians. Thus $kw=(36.8699)(0.643501)=23.7258\\ldots\\approx\\boxed{23.73}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 2,
+    "solution": "$\\min(A\\sin u+3)=3-A$. Substitute the given minimum: $3-A=-7$, so $A=\\boxed{10}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 3,
+    "solution": "$\\tan\\theta=-\\frac{7}{4}$ and $\\theta$ is in quadrant II, so a reference triangle has legs $7,4$ and hypotenuse $\\sqrt{65}$. Therefore $\\sin\\theta=\\frac{7}{\\sqrt{65}}=\\frac{7\\sqrt{65}}{65}$. Hence $k+w+p=7+65+65=\\boxed{137}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 4,
+    "solution": "$\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{5}{4}$. The perpendicular slope is $-\\frac{1}{5/4}=\\boxed{-\\frac45}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 5,
+    "solution": "Let $s=\\sin^2\\theta$. Then $10s^2-17s+6=(5s-6)(2s-1)$ and $18-15s=-3(5s-6)$. Thus the left side is $-\\frac{2s-1}{3}=\\frac{1-2\\sin^2\\theta}{3}=\\frac{\\cos(2\\theta)}{3}$. Therefore $k=\\boxed{\\frac13}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 6,
+    "solution": "Place $C=(0,0)$, $T=(6,0)$, and $I=(0,8)$. Since $\\angle CTM=115^\\circ$, $TM$ makes a $65^\\circ$ angle with the positive $x$-axis, so $M=(6+11\\cos65^\\circ,11\\sin65^\\circ)$. The shoelace formula gives $A=\\frac12(8x_M+6y_M)=24+44\\cos65^\\circ+33\\sin65^\\circ=72.50336\\ldots$. Thus $A\\approx\\boxed{72.503}$.",
+    "diagramNeeded": true
+  },
+  {
+    "index": 7,
+    "solution": "$\\frac{a}{6}=\\frac13$ gives $a=2$. Then $f(x)=\\frac{(2x-1)(x-5)}{(3x-4)(2x-1)}=\\frac{x-5}{3x-4}$, with a hole at $x=\\frac12$ and a vertical asymptote at $x=\\frac43$. Hence $b=1$. The range omits $y=\\frac13$ and the hole value $\\frac{1/2-5}{3/2-4}=\\frac95$, so $c=\\frac95$. Finally, $f(b)=f(1)=4$, and $f(b)+c=4+\\frac95=\\boxed{\\frac{29}{5}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 8,
+    "solution": "For a three-term geometric sequence, $w^2=kp$. With $k+w+p=21$, $\\frac1k+\\frac1w+\\frac1p=\\frac{21}{w^2}=\\frac7{12}$, so $w^2=36$. The ordered integer solution has $w=6$, hence $k+p=15$ and $kp=36$. Therefore $(k,w,p)=\\boxed{(3,6,12)}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 9,
+    "solution": "On Brent's turn, $P(B)=\\frac4{36}=\\frac19$; on Andrew's turn, $P(A)=\\frac5{36}$. A full nondeciding round has probability $\\frac89\\cdot\\frac{31}{36}$. Thus $P(B)=\\frac{1/9}{1-(8/9)(31/36)}=\\boxed{\\frac9{19}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 10,
+    "solution": "$y=4\\sin x\\cos x(\\cos^2x-\\sin^2x)=2\\sin(2x)\\cos(2x)=\\sin(4x)$. Its period is $\\frac{2\\pi}{4}=\\frac{\\pi}{2}=k\\pi$, so $k=\\boxed{\\frac12}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 11,
+    "solution": "The maximum absolute value is $10$. The last threshold begins on the first lobe where $10e^{-t}\\cos(t/3)=1$. Solving numerically gives $t=2.0486645\\ldots$; after this point the decreasing exponential envelope keeps $|y|\\le1$. Thus $t\\approx\\boxed{2.049}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 12,
+    "solution": "$f(n+1)=\\frac{3f(n)+1}{3}=f(n)+\\frac13$. Therefore $f(2019)=f(1)+\\frac{2018}{3}=5+\\frac{2018}{3}=\\boxed{\\frac{2033}{3}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 13,
+    "solution": "Let $u$ and $v$ be arrival times in minutes after 3:00 for Aune and Ella. The total rectangle has area $120\\cdot60$. They overlap when $v-17\\le u\\le v+34$. For $30\\le v\\le86$, the favorable width is $51$; for $86\\le v\\le90$, it is $137-v$. Thus $A_f=56(51)+\\int_{86}^{90}(137-v)\\,dv=3052$, and $P=\\frac{3052}{7200}=\\boxed{\\frac{763}{1800}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 14,
+    "solution": "$k=a\\left(\\frac12+\\frac13+\\frac14+\\frac15+\\frac16+\\frac17\\right)=a\\cdot\\frac{223}{140}$. Since $223$ is prime and coprime to $140$, the reduced numerator is prime exactly when $a$ divides $140$. The divisors of $140$ in $[1,100]$ are $11$ numbers, so the probability is $\\boxed{\\frac{11}{100}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 15,
+    "solution": "The cyclic gap pattern $(1,1,6)$, meaning three consecutive vertices, minimizes the triangle area. With circumradius $R$, its area is $\\frac{R^2}{2}(\\sin45^\\circ+\\sin45^\\circ-\\sin90^\\circ)=\\frac{R^2(\\sqrt2-1)}{2}$. The octagon area is $8\\cdot\\frac{R^2}{2}\\sin45^\\circ=2\\sqrt2R^2$. Therefore $k=\\frac{2-\\sqrt2}{8}$, so $a+b+c+d=2-1+2+8=\\boxed{11}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 16,
+    "solution": "By the Remainder Theorem, substitute $x=-2$: $(-1)^5+0^4+1^3+2^2+3=-1+0+1+4+3=\\boxed{7}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 17,
+    "solution": "Adjacent roots of $z^{12}=1$ subtend $\\frac{\\pi}{6}$. The side length is $2\\sin\\frac{\\pi}{12}=\\frac{\\sqrt6-\\sqrt2}{2}$, so the perimeter is $12\\cdot\\frac{\\sqrt6-\\sqrt2}{2}=6\\sqrt6-6\\sqrt2$. Hence $m+n+p+q=6+6-6+2=\\boxed{8}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 18,
+    "solution": "$\\frac1x+\\frac1y=\\frac1{xy}$ becomes $x+y=1$. Inside the unit circle, the smaller part is the sector $\\frac{\\pi}{4}$ minus the right triangle $\\frac12$, so the larger area is $A=\\pi-(\\frac{\\pi}{4}-\\frac12)=\\frac{3\\pi+2}{4}$. Therefore $k+w+p=3+2+4=\\boxed{9}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 19,
+    "solution": "$\\sqrt3\\sin x+\\cos x=2\\sin(x+\\frac{\\pi}{6})$. Thus $\\sin(x+\\frac{\\pi}{6})=\\frac{\\sqrt2}{2}$, giving $x=\\frac{\\pi}{12},\\frac{7\\pi}{12}$ in $[0,2\\pi]$. Their sum is $\\frac{2\\pi}{3}=k\\pi$, so $k=\\boxed{\\frac23}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 20,
+    "solution": "The major axis length gives $a=3$, and the focal distance is $c=\\sqrt5$. For an ellipse, $b^2=a^2-c^2=9-5=4$. Since the major axis is vertical, $k=b^2=4$ and $w=a^2=9$. Thus $k+w=\\boxed{13}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 21,
+    "solution": "For $r=5\\sin\\theta$, $r'=5\\cos\\theta$. The polar arc length is $L=\\int_0^{2\\pi}\\sqrt{r^2+(r')^2}\\,d\\theta=\\int_0^{2\\pi}5\\,d\\theta=10\\pi$. Hence $k=\\boxed{10}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 22,
+    "solution": "With distance $d$ from owl to mouse, $\\sin50^\\circ=\\frac{24}{d}$. Therefore $d=\\frac{24}{\\sin50^\\circ}=31.322\\ldots\\approx\\boxed{31.3\\text{ feet}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 23,
+    "solution": "The system is $3x+4y=3$ and $2x+3y=4$. Subtracting $2(3x+4y)=6$ from $3(2x+3y)=12$ gives $y=6$, then $2x+18=4$ gives $x=-7$. Thus $k+w=x+y=\\boxed{-1}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 24,
+    "solution": "$k=8\\sum_{n=1}^{\\infty}(\\frac13)^n=8\\left(\\frac{1/3}{1-1/3}\right)=8\\cdot\\frac12=\\boxed{4}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 25,
+    "solution": "$W(\\pi)=(-1,0)$ and $W(\\frac\\pi4)=(\\frac{\\sqrt2}{2},\\frac{\\sqrt2}{2})$. Hence $d^2=(1+\\frac{\\sqrt2}{2})^2+(\\frac{\\sqrt2}{2})^2=2+\\sqrt2$, so $d=1.847759\\ldots\\approx\\boxed{1.848}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 26,
+    "solution": "By the Law of Cosines, $26.424^2=(16t)^2+(14t)^2-2(16t)(14t)\\cos60^\\circ=228t^2$. Thus $t=\\frac{26.424}{\\sqrt{228}}=1.74997\\ldots\\approx\\boxed{1.7\\text{ hours}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 27,
+    "solution": "The acute angle $\\phi$ between the lines satisfies $\\tan\\phi=\\left|\\frac{5-1/4}{1+5/4}\\right|=\\frac{19}{9}$. Therefore $\\phi=64.6538\\ldots^\\circ$ and the obtuse angle is $180^\\circ-\\phi=\\boxed{115.3^\\circ}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 28,
+    "solution": "Perpendicular vectors have zero dot product: $(-6)(117)+(-78)k=0$. Thus $-702-78k=0$, so $k=\\boxed{-9}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 29,
+    "solution": "Write the line as $y=mx+b$. Its $x$-intercept is $x_0=-b/m$, so $b=-mx_0$. Since $m<0$ and $x_0<0$, $mx_0>0$, hence $b<0$. The statement is $\\boxed{\\text{Always}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 30,
+    "solution": "$\\sin x-\\cos x=\\frac13$. Squaring gives $1-2\\sin x\\cos x=\\frac19$, so $1-\\sin(2x)=\\frac19$. Therefore $\\sin(2x)=\\boxed{\\frac89}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 31,
+    "solution": "$P(\\text{same}|AB)=\\frac49$, $P(\\text{same}|AC)=\\frac59$, and $P(\\text{same}|BC)=\\frac49$. Each pair is selected with probability $\\frac13$, so $P=\\frac13(\\frac49+\\frac59+\\frac49)=\\boxed{\\frac{13}{27}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 32,
+    "solution": "For $f(x)=A\\sin(Bx+C)+D$, the amplitude is $|A|$. Here $|A|=|3|=\\boxed{3}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 33,
+    "solution": "$\\tan x=\\sqrt3$ gives $x=60^\\circ+180^\\circ n$. In $0^\\circ<x<720^\\circ$, the values are $60^\\circ,240^\\circ,420^\\circ,600^\\circ$. Their sum is $\\boxed{1320^\\circ}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 34,
+    "solution": "Let $u=\\sqrt[3]{2}$. Then $\\frac1{u-1}=\\frac{u^2+u+1}{u^3-1}=u^2+u+1=1+\\sqrt[3]{2}+\\sqrt[3]{4}$. Thus $(a,b,c)=\\boxed{(1,2,4)}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 35,
+    "solution": "Unit direction vectors along the two lines are $\\frac{(1,3/2)}{\\sqrt{13/4}}$ and $\\frac{(1,4)}{\\sqrt{17}}$. Their sum points along the positive angle bisector, so $m=\\frac{3\\sqrt{17}+4\\sqrt{13}}{2\\sqrt{17}+\\sqrt{13}}=\\frac{10+\\sqrt{221}}{11}$. Therefore $k+w+p+q=10+1+221+11=\\boxed{243}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 36,
+    "solution": "Two face vectors are $(0,6,-8)$ and $(10,0,-8)$. Their cross product is $(-48,-80,-60)$, so choose the positive-$x$ normal $(12,20,15)$. Its length is $\\sqrt{12^2+20^2+15^2}=\\sqrt{769}$. Thus $x+y+z+w=12+20+15+769=\\boxed{816}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 37,
+    "solution": "Let $r(x)=p(x)-q(x+2)$. Then $r(1)=r(2)=r(3)=r(4)=0$, so $r(x)=c(x-1)(x-2)(x-3)(x-4)$ with integer $c$. Since $r(5)=k$, $k=24c$. It must also be a positive multiple of $23$, so the smallest value is $\\operatorname{lcm}(24,23)=\\boxed{552}$. It is attained, for example, by taking $q(x)=x^4$ and $p(x)=q(x+2)+23(x-1)(x-2)(x-3)(x-4)$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 38,
+    "solution": "Since $\\triangle ABC$ is right at $C$, $BC=\\sqrt{AB^2-AC^2}=\\sqrt{65^2-56^2}=33$. Therefore $\\tan\\angle BAC=\\frac{BC}{AC}=\\boxed{\\frac{33}{56}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 39,
+    "solution": "$\\lim_{x\\to\\infty}\\frac{4x+e^{-x}}{5x}=\\lim_{x\\to\\infty}\\frac{4+e^{-x}/x}{5}=\\boxed{\\frac45}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 40,
+    "solution": "The resultant north and west components are $N=420\\cos40^\\circ-20\\cos20^\\circ$ and $W=420\\sin40^\\circ+20\\sin20^\\circ$. Thus $\\tan\\theta=\\frac{W}{N}$, so $\\theta=\\arctan\\left(\\frac{420\\sin40^\\circ+20\\sin20^\\circ}{420\\cos40^\\circ-20\\cos20^\\circ}\right)=42.4190\\ldots^\\circ\\approx\\boxed{42.42^\\circ}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 41,
+    "solution": "$\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt3}{2}$ and $\\cot\\frac{5\\pi}{6}=\\frac{-\\sqrt3/2}{1/2}=-\\sqrt3$. Therefore $kw=\\boxed{-\\frac32}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 42,
+    "solution": "$\\cos\\frac{7\\pi}{6}=-\\frac{\\sqrt3}{2}$. Since $\\arcsin$ has principal range $[-\\frac\\pi2,\\frac\\pi2]$, $\\arcsin(-\\frac{\\sqrt3}{2})=\\boxed{-\\frac\\pi3}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 43,
+    "solution": "$\\frac{f(x+h)-f(x)}{h}=\\frac{2(x+h)^2-5(x+h)-9-(2x^2-5x-9)}{h}=4x+2h-5$. Letting $h\\to0$ gives $4x-5=0x^2+4x-5$. Hence $k+w+p=0+4-5=\\boxed{-1}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 44,
+    "solution": "The area is $A=\\frac12(20)(17)\\sin52^\\circ=170\\sin52^\\circ=133.961828\\ldots$. Thus $A\\approx\\boxed{133.962}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 45,
+    "solution": "$k=\\sum_{n=0}^{\\infty}18(\\frac{17}{20})^n=\\frac{18}{1-17/20}=\\boxed{120}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 46,
+    "solution": "Let $AC=x$ and $BC=y$. Since $D$ is $6$ units from $A$, $BD^2=(x-6)^2+y^2=7^2$, while $AB^2=x^2+y^2=11^2$. Subtracting gives $x^2-(x-6)^2=121-49$, so $12x-36=72$ and $x=9$. Then $y^2=121-81=40$, so $BC=\\sqrt{40}=6.324555\\ldots\\approx\\boxed{6.325}$.",
+    "diagramNeeded": true
+  },
+  {
+    "index": 47,
+    "solution": "$\\det(A\\times B)=\\det(A)\\det(B)=(2\\cdot4-1\\cdot5)(7\\cdot2-3\\cdot3)=3\\cdot5=\\boxed{15}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 48,
+    "solution": "The first trip is $100+100$ feet. The rebounds contribute $2\\left(75+75\\cdot\\frac34+75\\cdot(\\frac34)^2+\\cdots\\right)=2\\cdot\\frac{75}{1-3/4}=600$ feet. Thus the total distance is $200+600=\\boxed{800\\text{ feet}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 49,
+    "solution": "With the new origin $(5,2)$, $x=x'+5$ and $y=y'+2$. Substitution gives $(y')^2=5(x'+8)$. Thus $k+w=5+8=\\boxed{13}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 50,
+    "solution": "For $6x^2+5xy+2y^2+x+2y-3=0$, $A=6$, $B=5$, and $C=2$. The conic discriminant is $B^2-4AC=25-48=-23<0$. Since the conic is nondegenerate, it is an $\\boxed{\\text{ellipse}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 51,
+    "solution": "$z=1+i\\sqrt3=2\\operatorname{cis}(\\frac\\pi3)$. A square root with positive real part is $\\sqrt2\\operatorname{cis}(\\frac\\pi6)=\\sqrt2(\\frac{\\sqrt3}{2}+\\frac12i)=\\frac{\\sqrt6}{2}+\\frac{\\sqrt2}{2}i$. Hence $(a,b)=\\boxed{(\\frac{\\sqrt6}{2},\\frac{\\sqrt2}{2})}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 52,
+    "solution": "Set the heights equal: $74-54e^{-x/3}=74-53e^{-x/3.1}$. Then $54e^{-x/3}=53e^{-x/3.1}$, so $\\frac{54}{53}=e^{x(1/3-1/3.1)}=e^{x/93}$. Therefore $x=93\\ln(\\frac{54}{53})=1.738368\\ldots\\approx\\boxed{1.738}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 53,
+    "solution": "$r=\\sqrt{(-2)^2+(-2\\sqrt3)^2}=4$. The point is in quadrant III, so $\\theta=\\frac{4\\pi}{3}$. Thus the polar coordinates are $\\boxed{(4,\\frac{4\\pi}{3})}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 54,
+    "solution": "Let $a=BC$. By the Law of Sines, existence requires $\\sin B=\\frac{100\\sin74^\\circ}{a}\\le1$, so $a\\ge100\\sin74^\\circ=96.126\\ldots$. With $a<100$ and $a$ integral, $a=97,98,99$. Their sum is $\\boxed{294}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 55,
+    "solution": "The yearly ratio is $r=\\frac{62.5}{61}$. Four years before age $14$, the height was $h=\\frac{61}{r^4}=55.3514\\ldots$ inches. Rounding to the nearest quarter inch gives $\\boxed{55.25\\text{ inches}}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 56,
+    "solution": "The amplitude is $k=|4|=4$. The $y$-intercept is $w=f(0)=3+4\\cos\\pi=3-4=-1$. Hence $k+w=4-1=\\boxed{3}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 57,
+    "solution": "By the angle-bisector theorem, $\\frac{AD}{DC}=\\frac{AB}{BC}=\\frac{18}{12}$, so $AD=10.5$ and $AC=17.5$. The smallest angle is $A$, opposite $BC=12$. Thus $\\cos A=\\frac{18^2+17.5^2-12^2}{2(18)(17.5)}$, giving $A=39.4819\\ldots^\\circ\\approx\\boxed{39.482^\\circ}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 58,
+    "solution": "$\\sin\\theta=-\\frac12$ on $[0,2\\pi)$ gives $\\theta=\\frac{7\\pi}{6},\\frac{11\\pi}{6}$. Their sum is $3\\pi=k\\pi$, so $k=\\boxed{3}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 59,
+    "solution": "Using $\\sin(2x)=2\\sin x\\cos x$, the equation becomes $4\\cos^2x(\\sin x-1)=\\sin x-1$. Therefore $(\\sin x-1)(2\\cos x-1)(2\\cos x+1)=0$. The five solutions are $\\frac\\pi2,\\frac\\pi3,\\frac{5\\pi}3,\\frac{2\\pi}3,\\frac{4\\pi}3$, whose sum is $\\frac{9\\pi}{2}$. Hence $k=\\boxed{\\frac92}$.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 60,
+    "solution": "For a vertical parabola with vertex $(-3,2)$, write $(x+3)^2=4p(y-2)$. Substituting $(9,-16)$ gives $144=4p(-18)$, so $p=-2$. The directrix is $y=2-p=\\boxed{4}$.",
+    "diagramNeeded": false
+  }
+]
