@@ -181,7 +181,7 @@
   },
   {
     "index": 217,
-    "solution": "Let the ordered piece lengths be \\(0\\le a\\le b\\le c\\), with \\(a+b+c=1\\). The triangle condition is \\(c<1/2\\), and the other condition is \\(c\\ge3a\\). In the \\(a,c\\)-plane the favorable area is\\n\\[\\int_0^{1/7}\frac a2\\,da+\\int_{1/7}^{1/6}\\left(\\frac12-3a\\right)da=\\frac1{168}.\\]\\nThe ordered simplex has area \\(1/12\\), so exchangeability gives\\n\\[P=\\frac{1/168}{1/12}=\\frac1{14}.\\]",
+    "solution": "Let the ordered piece lengths be \\(0\\le a\\le b\\le c\\), with \\(a+b+c=1\\). The triangle condition is \\(c<1/2\\), and the other condition is \\(c\\ge3a\\). In the \\(a,c\\)-plane the favorable area is\\n\\[\\int_0^{1/7}\\frac a2\\,da+\\int_{1/7}^{1/6}\\left(\\frac12-3a\\right)da=\\frac1{168}.\\]\\nThe ordered simplex has area \\(1/12\\), so exchangeability gives\\n\\[P=\\frac{1/168}{1/12}=\\frac1{14}.\\]",
     "diagramNeeded": false
   },
   {

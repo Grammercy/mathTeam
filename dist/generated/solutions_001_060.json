@@ -116,7 +116,7 @@
   },
   {
     "index": 24,
-    "solution": "$k=8\\sum_{n=1}^{\\infty}(\\frac13)^n=8\\left(\\frac{1/3}{1-1/3}\right)=8\\cdot\\frac12=\\boxed{4}$.",
+    "solution": "$k=8\\sum_{n=1}^{\\infty}(\\frac13)^n=8\\left(\\frac{1/3}{1-1/3}\\right)=8\\cdot\\frac12=\\boxed{4}$.",
     "diagramNeeded": false
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "index": 40,
-    "solution": "The resultant north and west components are $N=420\\cos40^\\circ-20\\cos20^\\circ$ and $W=420\\sin40^\\circ+20\\sin20^\\circ$. Thus $\\tan\\theta=\\frac{W}{N}$, so $\\theta=\\arctan\\left(\\frac{420\\sin40^\\circ+20\\sin20^\\circ}{420\\cos40^\\circ-20\\cos20^\\circ}\right)=42.4190\\ldots^\\circ\\approx\\boxed{42.42^\\circ}$.",
+    "solution": "The resultant north and west components are $N=420\\cos40^\\circ-20\\cos20^\\circ$ and $W=420\\sin40^\\circ+20\\sin20^\\circ$. Thus $\\tan\\theta=\\frac{W}{N}$, so $\\theta=\\arctan\\left(\\frac{420\\sin40^\\circ+20\\sin20^\\circ}{420\\cos40^\\circ-20\\cos20^\\circ}\\right)=42.4190\\ldots^\\circ\\approx\\boxed{42.42^\\circ}$.",
     "diagramNeeded": false
   },
   {
@@ -300,4 +300,3 @@
     "diagramNeeded": false
   }
 ]
-
