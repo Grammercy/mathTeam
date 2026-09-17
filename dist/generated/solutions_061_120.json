@@ -1,0 +1,303 @@
+[
+  {
+    "index": 61,
+    "solution": "\\((-5,3)\\cdot(6,8)=(-5)(6)+3(8)=-30+24=-6\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 62,
+    "solution": "\\(\\displaystyle\\lim_{x\\to0}\\frac{5x^3+3x^2-7x+3}{2x-3}=\\frac{3}{-3}=-1\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 63,
+    "solution": "With \\(\\tan\\theta=\\frac12\\) in quadrant I, use opposite \\(=1\\), adjacent \\(=2\\), hypotenuse \\(=\\sqrt5\\): \\(\\cos\\theta=\\frac{2\\sqrt5}{5}\\), \\(\\cot\\theta=2\\). Thus \\(\\cos\\theta+\\cot\\theta=\\frac{10+2\\sqrt5}{5}\\), so \\(k+w+p+q=10+2+5+5=22\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 64,
+    "solution": "\\(\\displaystyle\\sum_{k=2}^{5}(2^k-1)=(4-1)+(8-1)+(16-1)+(32-1)=3+7+15+31=56\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 65,
+    "solution": "The maximum-to-minimum distance is \\(\\frac{10\\pi}{3}-\\frac{4\\pi}{3}=2\\pi\\), which is half a period. Hence \\(T=4\\pi\\) and \\(B=\\frac{2\\pi}{T}=\\frac12\\). With \\(A=3\\) and \\(D=0\\), set \\(y=3\\sin\\left[\\frac12(x-C\\pi)\\right]\\). At the maximum, \\(\\frac12(\\frac43-C)\\pi=\\frac\\pi2\\), so \\(C=\\frac13\\). Therefore \\(A+B+C+D=3+\\frac12+\\frac13=\\frac{23}{6}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 66,
+    "solution": "\\(h(\\frac\\pi6)=\\sin^2\\frac\\pi6=\\frac14\\). Then \\(g(\\frac14)=2(\\frac14)\\sqrt{\\frac14}=\\frac14\\), so \\(f(g(h(\\frac\\pi6)))=f(\\frac14)=(\\frac14)^3+\\frac32=\\frac1{64}+\\frac{96}{64}=\\frac{97}{64}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 67,
+    "solution": "The roots are \\(-c\\) and \\(a\\) with odd multiplicity, and \\(b\\) with even multiplicity. Since the leading coefficient is positive, the sign is negative only between the odd-multiplicity roots: \\(f(x)<0\\) on \\((-c,a)\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 68,
+    "solution": "Let the first term be \\(r_1\\), and let there be \\(n\\) terms. Since the last term is \\(1458\\), \\(r_1(-3)^{n-1}=1458\\). Also \\(\\frac{r_1(1-(-3)^n)}{4}=1094\\). Using \\(r_1(-3)^n=-4374\\), the sum equation gives \\(4r_1+4374=4376\\), so \\(r_1=2\\). Then \\((-3)^{n-1}=729=3^6\\), so \\(n=7\\). The second term is \\(2(-3)=-6\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 69,
+    "solution": "Set \\(c=d=t\\). Then \\(a+b=10-2t\\), and \\(a^2+b^2\\ge\\frac{(a+b)^2}{2}\\). Therefore \\(30\\ge\\frac{(10-2t)^2}{2}+2t^2\\), so \\(8t^2-40t+40\\le0\\), or \\(t^2-5t+5\\le0\\). Thus \\(t\\le\\frac{5+\\sqrt5}{2}\\), with equality when \\(a=b=5-t>0\\). Hence \\(c_{\\max}=\\frac{5+\\sqrt5}{2}\\), and \\(k+w+f=5+5+2=12\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 70,
+    "solution": "\\(\\displaystyle[\\triangle]=\\frac12(20)(16)\\sin150^\\circ=160\\cdot\\frac12=80\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 71,
+    "solution": "From the first equation, \\(\\sin A=\\frac{4-3\\cos B}{2}\\), and from the second, \\(\\cos A=\\frac{3-3\\sin B}{2}\\). Using \\(\\sin^2A+\\cos^2A=1\\) gives \\((4-3\\cos B)^2+(3-3\\sin B)^2=4\\), hence \\(4\\cos B+3\\sin B=5\\). Since \\((4,3)\\cdot(\\cos B,\\sin B)\\le5\\), equality forces \\(\\cos B=\\frac45\\), \\(\\sin B=\\frac35\\). Then \\(\\sin A=\\frac45\\), \\(\\cos A=\\frac35\\), so \\(A+B=90^\\circ\\) and \\(C=90^\\circ\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 72,
+    "solution": "Using \\(P_2-P_1=(-3,-2,6)\\) and \\(P_3-P_1=(2,-1,7)\\), a normal vector is \\((-8,33,7)\\), so choose \\((A,B,C)=(8,-33,-7)\\). Substitution of \\((1,3,-1)\\) gives \\(8-99+7+D=0\\), hence \\(D=84\\). Therefore \\(A+B+C+D=8-33-7+84=52\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 73,
+    "solution": "\\(2x^2+12x=3y\\) gives \\(2(x+3)^2=3(y+6)\\), or \\((x+3)^2=\\frac32(y+6)\\). Thus \\(4p=\\frac32\\), so \\(p=\\frac38\\), with vertex \\((-3,-6)\\). The directrix is \\(y=-6-\\frac38=-\\frac{51}{8}=-6.375\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 74,
+    "solution": "The integer-coefficient conjugates are \\(\\pm\\sqrt3\\pm\\sqrt5\\). Since \\(x^2=8+2\\sqrt{15}\\) for the given root, \\((x^2-8)^2=60\\). Hence the monic polynomial is \\(x^4-16x^2+4\\), whose constant term is \\(4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 75,
+    "solution": "MATHEMATICS has 11 letters, with M, A, and T each repeated twice. Thus the number of arrangements is \\(\\frac{11!}{2!\\,2!\\,2!}=4{,}989{,}600\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 76,
+    "solution": "If \\(P(x)=x^3+ax^2+bx-105\\), then shifting each root down by 2 gives \\(Q(x)=P(x+2)=x^3-dx^2+ex-f\\). Comparing coefficients yields \\(a=-d-6\\) and \\(b=e+4d+12\\). Comparing constants gives \\(-f=4a+2b-97=4d+2e-97\\). Therefore \\(4d+2e+f=97\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 77,
+    "solution": "\\(\\displaystyle\\frac{\\cos^3\\theta+\\sin^3\\theta}{\\cos\\theta+\\sin\\theta}=\\cos^2\\theta-\\sin\\theta\\cos\\theta+\\sin^2\\theta=1-\\frac12\\sin2\\theta\\). Thus \\(k=1\\), \\(w=\\frac12\\), and \\(7k+28w=7+14=21\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 78,
+    "solution": "Let \\(T(t)=\\frac{1-24t}{24-3t}\\). Then \\(T(T(t))=\\frac{573t}{573}=t\\), whenever defined. Thus an even number of iterations returns to the starting value. Since \\(t_2=T(77)=\\frac{1-24(77)}{24-3(77)}=\\frac{1847}{207}\\), \\(t_{2016}=\\frac{1847}{207}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 79,
+    "solution": "For \\(x<0\\), \\(\\frac{\\sin x}{x}\\le1<1-\\frac{x}{4}\\), so no roots occur. For \\(x>0\\), multiply by \\(x\\) and set \\(F(x)=x-\\frac{x^2}{4}-\\sin x\\). On \\((0,2)\\), \\(F(0)=0\\), \\(F(2)=1-\\sin2>0\\), and the derivative changes from negative to positive once, so there is exactly one positive root there. On \\([2,\\pi]\\), \\(F'(x)=1-\\frac{x}{2}-\\cos x>0\\), while on \\([\\pi,4]\\) the first two terms give \\(x-\\frac{x^2}{4}>0\\) and \\(\\sin x\\le0\\), so there are no more roots before 4. On \\([4,2+2\\sqrt2]\\), \\(F'(x)<0\\), with \\(F(4)=-\\sin4>0\\) and \\(F(2+2\\sqrt2)=-1-\\sin(2+2\\sqrt2)<0\\), so there is exactly one root. For \\(x>2+2\\sqrt2\\), \\(x-\\frac{x^2}{4}<-1\\le\\sin x\\), so no roots occur. The number of intersections is \\(2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 80,
+    "solution": "From \\(x^2+y^2=51^2\\) and \\((x-26)^2+y^2=55^2\\), subtraction gives \\(52x-676=-424\\), so \\(x=\\frac{63}{13}\\) and \\(y=\\frac{660}{13}\\). Hence \\([ABC]=\\frac12(26)(\\frac{660}{13})=660\\). The ratio total is 6, so \\([PAB]=110\\) and \\([PAC]=220\\). Since \\([PAB]=\\frac12(26)y_P\\), \\(y_P=\\frac{110}{13}\\). Finally, \\([PAC]=\\frac12\\left(x_P\\frac{660}{13}-\\frac{110}{13}\\frac{63}{13}\\right)=220\\), which gives \\(x_P=\\frac{739}{78}\\). Thus \\(P=\\left(\\frac{739}{78},\\frac{110}{13}\\right)\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 81,
+    "solution": "\\(\\overrightarrow{PQ}=Q-P=(-5+3,2-4)=(-2,-2)\\). Therefore \\(|\\overrightarrow{PQ}|=\\sqrt{(-2)^2+(-2)^2}=\\sqrt8=2\\sqrt2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 82,
+    "solution": "\\((f\\circ g)(x)=f(3x-1)=5(3x-1)+6=15x+1\\). Hence \\((k,w)=(15,1)\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 83,
+    "solution": "\\(x^2+40=-9\\Rightarrow x^2=-49\\Rightarrow x=\\pm7i\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 84,
+    "solution": "Since \\(x^2+y^2\\ge2xy\\), \\(60=x^2+3xy+y^2\\ge5xy\\), so \\(xy\\le12\\). Equality occurs when \\(x=y\\), and \\(5x^2=60\\) has real solutions. Thus the maximum is \\(12\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 85,
+    "solution": "\\(\\sin3x+\\sin x=2\\sin2x\\cos x=0\\). On \\([0,2\\pi)\\), the solutions from \\(\\sin2x=0\\) are \\(0,\\frac\\pi2,\\pi,\\frac{3\\pi}{2}\\), and \\(\\cos x=0\\) adds no new values. The largest is \\(\\frac{3\\pi}{2}=\\frac32\\pi\\), so \\(k=\\frac32\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 86,
+    "solution": "For \\(y=\\frac12\\cos(8\\pi x-4)+12\\), the amplitude is \\(k=\\frac12\\) and the period is \\(w=\\frac{2\\pi}{8\\pi}=\\frac14\\). Therefore \\(kw=\\frac12\\cdot\\frac14=\\frac18\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 87,
+    "solution": "Let \\(F_5=a\\). Then \\(F_6=a+7\\) and \\(F_7=F_6+F_5=2a+7=29\\), so \\(a=11\\). Thus \\(F_8=47\\), \\(F_9=76\\), and \\(F_{10}=123\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 88,
+    "solution": "Using common logarithms, \\(\\log_{100}(x+2)=\\frac12\\log(x+2)\\). Thus \\(\\log(x+2)=2\\log x=\\log(x^2)\\), so \\(x+2=x^2\\). The domain requires \\(x>0\\), leaving \\(x=2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 89,
+    "solution": "\\(\\vec u\\cdot\\vec v=2(-2)+3(5)=11\\), \\(|\\vec u|=\\sqrt{13}\\), and \\(|\\vec v|=\\sqrt{29}\\). Hence \\(\\cos\\theta=\\frac{11}{\\sqrt{13}\\sqrt{29}}\\), so \\(\\theta=\\cos^{-1}\\left(\\frac{11}{\\sqrt{377}}\\right)\\approx55.49^\\circ\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 90,
+    "solution": "\\(P(\\text{at least one})=\\frac37+\\frac45-\\frac37\\cdot\\frac45=\\frac{15+28-12}{35}=\\frac{31}{35}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 91,
+    "solution": "The chord \\(AB=6\\) in a circle of radius 8 gives \\(\\sin\\frac{\\phi}{2}=\\frac{AB/2}{8}=\\frac38\\), where \\(\\phi\\) is the minor central angle. Because \\(C\\) lies on the major arc, \\(\\angle C\\) intercepts the minor arc, so \\(\\angle C=\\frac\\phi2=\\sin^{-1}(\\frac38)\\approx22.02^\\circ\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 92,
+    "solution": "For \\(x>5\\), \\(\\log x-k=\\log(x-5)+3\\) becomes \\(\\log\\left(\\frac{x}{x-5}\\right)=k+3\\). As \\(x\\) ranges over \\((5,\\infty)\\), the left side has range \\((0,\\infty)\\). No solution requires \\(k+3\\le0\\), so the largest such value is \\(k=-3\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 93,
+    "solution": "By the remainder theorem, \\(k=4(-5)^4+2(-5)^3+5(-5)^2+15=2500-250+125+15=2390\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 94,
+    "solution": "Since the angles are in quadrant I, \\(\\cos A=\\frac{\\sqrt{33}}7\\) and \\(\\sin B=\\frac{2\\sqrt6}7\\). Then \\(\\tan(A+B)=\\frac{\\sin A\\cos B+\\cos A\\sin B}{\\cos A\\cos B-\\sin A\\sin B}=\\frac{4\\sqrt{33}+10\\sqrt6}{9}\\). Thus \\(k+w+p+q+f=4+10+33+6+9=62\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 95,
+    "solution": "Let \\(P\\) be the probability Evie wins. She wins immediately with probability \\(\\frac16\\). If she misses and Xavier rolls an even number, the game restarts, so \\(P=\\frac16+\\frac56\\cdot\\frac12P\\). Therefore \\(P=\\frac16+\\frac5{12}P\\), giving \\(P=\\frac27\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 96,
+    "solution": "Let \\(d\\) be Henrik's first distance from the pole and \\(h\\) the pole height. Then \\(h=d\\tan50^\\circ=(d+10)\\tan40^\\circ\\), so \\(d=\\frac{10\\tan40^\\circ}{\\tan50^\\circ-\\tan40^\\circ}\\). At distance 10, \\(k=\\tan^{-1}(h/10)=\\tan^{-1}\\left(\\frac{\\tan40^\\circ\\tan50^\\circ}{\\tan50^\\circ-\\tan40^\\circ}\\right)\\approx70.57^\\circ\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 97,
+    "solution": "On \\(y=\\sqrt{2x-5}\\), \\(x=\\frac{y^2+5}{2}\\). The squared distance to \\((5,0)\\) is \\(\\left(\\frac{y^2-5}{2}\\right)^2+y^2=\\frac{(y^2-3)^2+16}{4}\\). This is minimized when \\(y^2=3\\), so \\(y=\\sqrt3\\) and \\(x=4\\). The point is \\((4,\\sqrt3)\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 98,
+    "solution": "The number of trailing zeros is \\(\\left\\lfloor\\frac{2015}{5}\\right\\rfloor+\\left\\lfloor\\frac{2015}{25}\\right\\rfloor+\\left\\lfloor\\frac{2015}{125}\\right\\rfloor+\\left\\lfloor\\frac{2015}{625}\\right\\rfloor=403+80+16+3=502\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 99,
+    "solution": "\\(\\sec\\theta=\\frac{20}{15}=\\frac43\\), so \\(|\\cos\\theta|=\\frac34\\). Hence \\(|\\sin\\theta|=\\sqrt{1-\\frac9{16}}=\\frac{\\sqrt7}{4}\\). The least possible value is \\(-\\frac{\\sqrt7}{4}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 100,
+    "solution": "The angle bisector length is \\(CD=\\frac{2ab\\cos\\theta}{a+b}\\). With \\(\\cos\\theta=\\frac14\\), \\(CD=\\frac{ab}{2(a+b)}\\). Also \\(\\frac{a+b}{ab}=\\frac1a+\\frac1b=\\frac1{20}\\), so \\(\\frac{ab}{a+b}=20\\). Therefore \\(CD=10\\).",
+    "diagramNeeded": true
+  },
+  {
+    "index": 101,
+    "solution": "Because the polynomial has integer coefficients, the conjugate \\(1-\\sqrt2\\) is also a root. Thus the polynomial is \\((x-(1+\\sqrt2))(x-(1-\\sqrt2))=x^2-2x-1\\), so \\(b=-2\\), \\(c=-1\\), and \\(b+c=-3\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 102,
+    "solution": "\\(\\displaystyle\\frac1{4-i\\sqrt3}-\\frac1{4+i\\sqrt3}=\\frac{2i\\sqrt3}{19}\\). Therefore \\(1+b\\frac{2i\\sqrt3}{19}=0\\), so \\(b=-\\frac{19}{2i\\sqrt3}=\\frac{19i\\sqrt3}{6}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 103,
+    "solution": "Completing squares gives \\(4(x-1)^2-(y-1)^2=4\\), so the original conic has center \\((1,1)\\). A clockwise \\(90^\\circ\\) rotation sends \\((x,y)\\) to \\((y,-x)\\), so the new center is \\((1,-1)\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 104,
+    "solution": "Polar equivalence gives \\((-5,\\frac{7\\pi}{6})=(5,\\frac{13\\pi}{6})=(5,\\frac\\pi6)\\), so I and III coincide with the given point. Also V is equivalent to \\((5,\\frac{5\\pi}{6})\\), not the given point. Therefore the count is \\(2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 105,
+    "solution": "\\(3\\sqrt{7-x}=x+3\\). Squaring gives \\(9(7-x)=(x+3)^2\\), so \\(x^2+15x-54=0\\), with roots \\(x=3,-18\\). The original equation requires \\(x+3\\ge0\\), so only \\(x=3\\) remains.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 106,
+    "solution": "The expression is the binomial expansion \\((\\cos^2x+\\sin^2x)^3\\). Since \\(\\cos^2x+\\sin^2x=1\\), its value is \\(1\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 107,
+    "solution": "Write \\(P(x)=x^3+Ax^2+Bx+C\\). The three values give \\(36A+6B+C=-227\\), \\(16A+4B+C=-61\\), and \\(16A-4B+C=-277\\). Subtracting yields \\(B=27\\), then \\(A=-11\\) and \\(C=7\\). Thus \\(P(x)=x^3-11x^2+27x+7=(x-7)(x^2-4x-1)\\), and \\(P(10)=1000-1100+270+7=177\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 108,
+    "solution": "Let the red and blue counts be \\(R,B\\). Equal two-red and two-blue probabilities give \\(R(R-1)=B(B-1)\\), so \\(R=B=n\\). The one-each probability is \\(\\frac{n^2}{\\binom{2n}{2}}=\\frac{n}{2n-1}=\\frac47\\). Thus \\(7n=8n-4\\), so \\(n=4\\), and the least total is \\(8\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 109,
+    "solution": "Rewrite \\(3x-4y=7\\) as \\(y=\\frac34x-\\frac74\\). The distance between the parallel lines \\(y=\\frac34x+b\\) and \\(y=\\frac34x-\\frac74\\) is \\(\\frac{|b+\\frac74|}{\\sqrt{1+(\\frac34)^2}}=\\frac{4}{5}|b+\\frac74|\\). Setting this equal to 2 gives \\(b=\\frac34\\) or \\(-\\frac{17}{4}\\). Since \\(b>0\\), \\(b=\\frac34\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 110,
+    "solution": "For the infinite geometric series, \\(S=\\frac{2-i}{1-\\frac i2}=\\frac{2(2-i)}{2-i}=2\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 111,
+    "solution": "Choose \\(x^2\\), \\(y^2\\), and \\(z^2\\) from the three factors: \\(\\binom52\\binom42\\binom32=10\\cdot6\\cdot3=180\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 112,
+    "solution": "Let \\(a=\\ln x\\). Then \\(2a^2=\\ln(x^5)+3=5a+3\\), so \\(2a^2-5a-3=(2a+1)(a-3)=0\\). The possible values are \\(a=-\\frac12,3\\), whose sum is \\(\\frac52\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 113,
+    "solution": "Let \\(t=4x+3\\), so \\(x=\\frac{t-3}{4}\\). Then \\(f(t)=8\\left(\\frac{t-3}{4}\\right)-1=2t-7\\). Hence \\(f^{-1}(x)=\\frac{x+7}{2}=\\frac12x+\\frac72\\), and \\(a+b=4\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 114,
+    "solution": "Since \\(\\cos x=\\frac13\\) and \\(0<\\cos x<\\sin x\\), \\(\\sin x=\\frac{2\\sqrt2}{3}\\). The continued fraction satisfies \\(u=2\\sin x+\\frac{\\cos^2x}{u}=\\frac{4\\sqrt2}{3}+\\frac{1}{9u}\\). Thus \\(u^2-\\frac{4\\sqrt2}{3}u-\\frac19=0\\), giving \\(u=1+\\frac{2\\sqrt2}{3}\\) as the positive root. Therefore \\(u=\\frac{3+2\\sqrt2}{3}\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 115,
+    "solution": "The matrix is singular when its determinant is zero: \\((x-2)(x-3)-2x(x+5)=-x^2-15x+6=0\\). Equivalently, \\(x^2+15x-6=0\\), whose discriminant is \\(249>0\\). Therefore there are \\(2\\) distinct real values.",
+    "diagramNeeded": false
+  },
+  {
+    "index": 116,
+    "solution": "Let \\(p\\) be David's win probability. Equality of the probabilities of exactly two and exactly three wins gives \\(6p^2(1-p)^2=4p^3(1-p)\\). Since both probabilities are nonzero, divide by \\(2p^2(1-p)\\): \\(3(1-p)=2p\\), so \\(p=\\frac35\\). Jim's probability is \\(1-p=\\frac25\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 117,
+    "solution": "The vertex occurs at \\(t=0\\), giving \\((2,1)\\). The \\(y\\)-intercept has \\(2+t=0\\), so \\(t=-2\\) and the point is \\((0,-3)\\). The distance is \\(\\sqrt{(2-0)^2+(1-(-3))^2}=\\sqrt{20}=2\\sqrt5\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 118,
+    "solution": "Let \\(\\alpha=\\cos^{-1}\\sqrt{\\frac35}\\). The four solutions are \\(\\alpha,\\pi-\\alpha,\\pi+\\alpha,2\\pi-\\alpha\\). Their sum is \\(4\\pi\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 119,
+    "solution": "Period 3 gives \\(f(1)=f(10)=9\\), \\(f(2)=f(8)=2\\), and \\(f(3)=f(6)=4\\). Therefore \\(2f(1)+3f(2)+4f(3)=2(9)+3(2)+4(4)=40\\).",
+    "diagramNeeded": false
+  },
+  {
+    "index": 120,
+    "solution": "Use the law of cosines: \\(c^2=a^2+b^2-2ab\\cos C\\). Then \\((a+b+c)(a+b-c)=(a+b)^2-c^2=2ab(1+\\cos C)=3ab\\). Thus \\(1+\\cos C=\\frac32\\), so \\(\\cos C=\\frac12\\) and \\(\\sec C=2\\).",
+    "diagramNeeded": false
+  }
+]
+
